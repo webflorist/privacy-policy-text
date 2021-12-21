@@ -1,4 +1,7 @@
-# webflorist/privacy-policy-text
+# Privacy Policy Texts in German and English
+
+[![composer version](https://poser.pugx.org/webflorist/privacy-policy-text/v/stable)](https://packagist.org/packages/webflorist/privacy-policy-text)
+[![npm version](https://img.shields.io/npm/v/@webflorist/privacy-policy-text.svg)](https://www.npmjs.com/package/@webflorist/privacy-policy-text)
 
 This package includes open source texts for a GDPR conform privacy policy of a website. They come in php and json files to be used by common translation frameworks.
 
