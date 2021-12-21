@@ -1,0 +1,31 @@
+{
+    "name": "webflorist/privacy-policy-text",
+    "description": "Open source texts for a privacy policy",
+    "keywords": [
+        "privacy",
+        "policy",
+        "loalization",
+        "legal",
+        "german",
+        "english"
+    ],
+    "homepage": "https://github.com/webflorist/privacy-policy-text",
+    "support": {
+        "issues": "https://github.com/webflorist/privacy-policy-text/issues",
+        "source": "https://github.com/webflorist/privacy-policy-text"
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gerald Buttinger",
+            "email": "gerald@code.florist"
+        }
+    ],
+    "require-dev": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
