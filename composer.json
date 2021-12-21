@@ -1,13 +1,16 @@
 {
     "name": "webflorist/privacy-policy-text",
-    "description": "Open source texts for a privacy policy",
+    "description": "Open source texts for a privacy policy ind german and english. Available as php or json.",
     "keywords": [
         "privacy",
         "policy",
-        "loalization",
+        "privacy-policy",
+        "data-protection",
+        "localization",
         "legal",
         "german",
-        "english"
+        "english",
+        "gdpr"
     ],
     "homepage": "https://github.com/webflorist/privacy-policy-text",
     "support": {
