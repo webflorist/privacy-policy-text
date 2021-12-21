@@ -14,7 +14,7 @@ class FileGenerator
     {
         $currentDir = dirname(__FILE__);
         $this->langDir = $currentDir . '/lang';
-        $this->distDir = $currentDir . '/dist';
+        $this->distDir = $currentDir . '/../dist';
     }
 
     public function generate()
