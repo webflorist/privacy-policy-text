@@ -41,10 +41,11 @@ Any dynamic parts of the language files can be interpolated by the translation-l
   - Sending of emails (e.g. contact forms)
 - Info regarding outgoing links
 
-# Disclaimer
+## Disclaimer
 
 The included text *should* be suitable for a GDPR-compliant website.
 I however do not take any responsibility whatsowever for that.
 
-- License
+## License
+
 This package is open-sourced software licensed under the [MIT license](https://github.com/laravel/framework/blob/8.x/LICENSE.md).
