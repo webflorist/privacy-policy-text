@@ -4,7 +4,7 @@
     "description": "Open source texts for a privacy policy in german and english provided via JSON-files.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/webflorist/privacy-policy-text"
+        "url": "git+https://github.com/webflorist/privacy-policy-text.git"
     },
     "bugs": {
         "url": "https://github.com/webflorist/privacy-policy-text/issues"
@@ -25,5 +25,6 @@
         "dist/**/*.json"
     ],
     "author": "Gerald Buttinger <gerald@code.florist>",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {}
 }
