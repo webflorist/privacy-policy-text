@@ -1,5 +1,5 @@
 {
-    "name": "privacy-policy-text",
+    "name": "@webflorist/privacy-policy-text",
     "version": "1.0.0",
     "description": "Open source texts for a privacy policy in german and english provided via JSON-files.",
     "repository": {
