@@ -7,19 +7,22 @@ class FileGenerator
     const INTERPOLATION =   ['curly-wrap', 'double-curly-wrap', 'colon-prefix'];
     const NUMERUS =         ['singular', 'plural'];
 
+    private string $currentDir;
     private string $langDir;
     private string $distDir;
 
     public function __construct()
     {
-        $currentDir = dirname(__FILE__);
-        $this->langDir = $currentDir . '/lang';
-        $this->distDir = $currentDir . '/../dist';
+        $this->currentDir = dirname(__FILE__);
+        $this->langDir = $this->currentDir . '/lang';
+        $this->distDir = $this->currentDir . '/../dist';
     }
 
     public function generate()
     {
 
+        self::rrmdir($this->distDir . '/json');
+        self::rrmdir($this->distDir . '/php');
         mkdir($this->distDir);
 
         $localeFiles = array_diff(scandir($this->langDir), array('..', '.'));
@@ -31,23 +34,33 @@ class FileGenerator
             foreach (self::FORMAT as $format) {
                 foreach (self::INTERPOLATION as $interpolation) {
                     foreach (self::NUMERUS as $numerus) {
-                        $this->renderFile($locale, $srcFile, $format, $interpolation, $numerus);
+                        $outputFolder = $this->distDir . "/$format/$interpolation/$numerus";
+                        mkdir($outputFolder, 0777, true);
+                        $outputFilename = "$locale.$format";
+                        $outputFile = "$outputFolder/$outputFilename";
+                        $this->renderFile($srcFile, $outputFile, $format, $interpolation, $numerus);
                     }
                 }
             }
         }
+
+        $this->renderFile(
+            $this->currentDir . '/providers.php',
+            $this->distDir . '/json/providers.json',
+            'json'
+        );
+
+        $this->renderFile(
+            $this->currentDir . '/providers.php',
+            $this->distDir . '/php/providers.php',
+            'php'
+        );
     }
 
 
-    private function renderFile(string $locale, string $srcFile, string $format, string $interpolation, string $numerus)
+    private function renderFile(string $srcFile, string $outputFile, string $format, string $interpolation = 'curly-wrap', string $numerus = 'plural')
     {
-
-        $outputFolder = $this->distDir . "/$format/$interpolation/$locale";
-        $outputFilename = "$numerus.$format";
-        $outputFile = "$outputFolder/$outputFilename";
-        mkdir($outputFolder, 0777, true);
-
-        $i = $this->createInterpolateFunction($interpolation);
+        $i = self::createInterpolateFunction($interpolation);
         $s = $numerus === 'singular';
         $translationData = require $srcFile;
 
@@ -62,18 +75,34 @@ class FileGenerator
         }
     }
 
-    function createInterpolateFunction(string $interpolation): Closure
+    private static function createInterpolateFunction(string $interpolation): Closure
     {
         return function ($value) use ($interpolation) {
             if ($interpolation === 'curly-wrap')
-                return "{$value}";
+                return '{' . $value . '}';
 
             if ($interpolation === 'double-curly-wrap')
-                return "{{$value}}";
+                return '{{' . $value . '}}';
 
             if ($interpolation === 'colon-prefix')
-                return ":$value";
+                return ':' . $value;
         };
+    }
+
+    private static function rrmdir($dir)
+    {
+        if (is_dir($dir)) {
+            $objects = scandir($dir);
+            foreach ($objects as $object) {
+                if ($object != "." && $object != "..") {
+                    if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && !is_link($dir . "/" . $object))
+                        self::rrmdir($dir . DIRECTORY_SEPARATOR . $object);
+                    else
+                        unlink($dir . DIRECTORY_SEPARATOR . $object);
+                }
+            }
+            rmdir($dir);
+        }
     }
 }
 
