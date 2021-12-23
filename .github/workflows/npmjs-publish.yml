@@ -17,7 +17,6 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-        run: yarn install --frozen-lockfile
-        run: yarn publish --access public --new-version ${{ steps.get_version.outputs.VERSION }}
+        run: yarn install --frozen-lockfile && yarn publish --access public --new-version ${{ steps.get_version.outputs.VERSION }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
