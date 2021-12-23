@@ -1,6 +1,5 @@
 {
     "name": "@webflorist/privacy-policy-text",
-    "version": "1.0.1",
     "description": "Open source texts for a privacy policy in german and english provided via JSON-files.",
     "repository": {
         "type": "git",
@@ -21,16 +20,17 @@
         "english",
         "gdpr"
     ],
-	"main": "./dist/privacy-policy-text.esm.js",
-	"module": "./dist/privacy-policy-text.esm.js",
-	"exports": {
-		".": "./dist/privacy-policy-text.esm.js"
-	},
+    "main": "./dist/privacy-policy-text.esm.js",
+    "module": "./dist/privacy-policy-text.esm.js",
+    "exports": {
+        ".": "./dist/privacy-policy-text.esm.js"
+    },
     "files": [
         "dist/**/*.json",
         "dist/*.*"
     ],
     "author": "Gerald Buttinger <gerald@code.florist>",
     "license": "MIT",
-    "devDependencies": {}
+    "devDependencies": {},
+    "version": "v1.0.2"
 }
