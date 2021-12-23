@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
+          scope: '@webflorist'
       - name: Publish package  
         run: yarn publish --access public --new-version ${{ steps.get_version.outputs.VERSION }}
         env:
