@@ -1,4 +1,4 @@
-name: Publish Package to npmjs
+name: Publish package to npmjs
 on:
   push:
     tags:
@@ -10,8 +10,9 @@ jobs:
       - name: Get the version
         id: get_version
         run: echo ::set-output name=VERSION::$(echo GITHUB_REF#refs/tags/ | | sed -e "s/v//g")
-      - name: Publish package  
+      - name: Check out repository
         uses: actions/checkout@v2
+      - name: Publish package  
         uses: actions/setup-node@v2
         with:
           node-version: '16.x'
