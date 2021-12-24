@@ -31,5 +31,9 @@
     ],
     "author": "Gerald Buttinger <gerald@code.florist>",
     "license": "MIT",
-    "devDependencies": {}
+    "devDependencies": {},
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org"
+    }
 }
