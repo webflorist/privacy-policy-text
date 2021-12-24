@@ -32,4 +32,10 @@ array (
     'address' => '2325 3rd Street, Suite 296, San Francisco, CA 94107, USA',
     'privacy_policy' => 'https://www.netlify.com/privacy/',
   ),
+  'stripe' => 
+  array (
+    'name' => 'Stripe Inc.',
+    'address' => '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
+    'privacy_policy' => 'https://stripe.com/privacy',
+  ),
 );

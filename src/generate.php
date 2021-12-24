@@ -45,14 +45,14 @@ class FileGenerator
         }
 
         $this->renderFile(
-            $this->currentDir . '/providers.php',
-            $this->distDir . '/json/providers.json',
+            $this->currentDir . '/processors.php',
+            $this->distDir . '/json/processors.json',
             'json'
         );
 
         $this->renderFile(
-            $this->currentDir . '/providers.php',
-            $this->distDir . '/php/providers.php',
+            $this->currentDir . '/processors.php',
+            $this->distDir . '/php/processors.php',
             'php'
         );
     }
