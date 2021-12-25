@@ -32,8 +32,7 @@ class FileGenerator
 			foreach (self::FORMAT as $format) {
 				foreach (self::INTERPOLATION as $interpolation) {
 					foreach (self::NUMERUS as $numerus) {
-						$outputFolder =
-							$this->distDir . "/$format/$interpolation/$numerus";
+						$outputFolder = $this->distDir . "/$format/$interpolation/$numerus";
 						mkdir($outputFolder, 0777, true);
 						$outputFilename = "$locale.$format";
 						$outputFile = "$outputFolder/$outputFilename";

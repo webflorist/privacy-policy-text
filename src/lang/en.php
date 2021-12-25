@@ -35,10 +35,8 @@ return [
 			'ul1' => [
 				'li1' =>
 					'**Right of access** to the personal information we gather about you, and how we the share, store and process that information.',
-				'li2' =>
-					'**Right to correction** of your personal information.',
-				'li3' =>
-					'**Right to erasure** of your personal data from our servers.',
+				'li2' => '**Right to correction** of your personal information.',
+				'li3' => '**Right to erasure** of your personal data from our servers.',
 				'li4' =>
 					'**Right to complain** with a supervisory authority about our handling of your data.',
 				'li5' =>

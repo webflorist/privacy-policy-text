@@ -37,10 +37,8 @@ return [
 			'ul1' => [
 				'li1' =>
 					'**Recht auf Auskunft** über die gesammelten persönlichen Informationen und wie diese gespeichert, verarbeitet oder geteilt werden.',
-				'li2' =>
-					'**Recht auf Berichtigung** Ihrer persönlichen Informationen.',
-				'li3' =>
-					'**Recht auf Löschen** Ihrer persönlichen Informationen.',
+				'li2' => '**Recht auf Berichtigung** Ihrer persönlichen Informationen.',
+				'li3' => '**Recht auf Löschen** Ihrer persönlichen Informationen.',
 				'li4' => '**Recht auf Beschwerde** bei einer Aufsichtsbehörde.',
 				'li5' =>
 					'**Recht auf Einschränkung** der Verarbeitung Ihrer persönlichen Informationen.',

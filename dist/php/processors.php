@@ -18,8 +18,7 @@ return [
 	],
 	'twilio_usa' => [
 		'name' => 'Twilio Inc.',
-		'address' =>
-			'375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
+		'address' => '375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
 		'privacy_policy' => 'https://www.twilio.com/legal/privacy',
 	],
 	'netlify' => [
@@ -29,8 +28,7 @@ return [
 	],
 	'stripe' => [
 		'name' => 'Stripe Inc.',
-		'address' =>
-			'185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
+		'address' => '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
 		'privacy_policy' => 'https://stripe.com/privacy',
 	],
 ];

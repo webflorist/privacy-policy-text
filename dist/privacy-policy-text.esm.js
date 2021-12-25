@@ -13,7 +13,7 @@ import doubleCurlyWrapSingularEn from './json/double-curly-wrap/singular/en.json
 import doubleCurlyWrapPluralDe from './json/double-curly-wrap/plural/de.json'
 import doubleCurlyWrapPluralEn from './json/double-curly-wrap/plural/en.json'
 
-import defaultProcessors from './json/processors.json'
+import processors from './json/processors.json'
 
 import { renderText } from './helpers.js'
 
@@ -51,6 +51,6 @@ export {
 	curlyWrapPlural,
 	doubleCurlyWrapSingular,
 	doubleCurlyWrapPlural,
-	defaultProcessors,
+	processors,
 	renderText,
 }
