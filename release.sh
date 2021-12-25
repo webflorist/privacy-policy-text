@@ -86,7 +86,19 @@ then
     echo "==============================="
     echo "Bumping version in package.json"
     echo "==============================="
-    node -p "JSON.stringify({...require('./package.json'), version: '${version}'}, null, 2)" >./package2.json
+    file_content=$(cat package.json)
+    search="\"version\": \"${old_version}\""
+    replace="\"version\": \"${new_version}\""
+    echo $search
+    echo $replace
+    if [[ $file_content != *$search* ]]
+    then
+        echo
+        echo "$search not found in package.json."
+        exit 1
+    fi
+    sed -i "s/$search/$replace/" package.json
+    echo $?
     if [[ $? > 0 ]]; then exit 1; fi
 
     echo
