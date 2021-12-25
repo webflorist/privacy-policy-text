@@ -1,6 +1,6 @@
 {
     "name": "@webflorist/privacy-policy-text",
-    "description": "Open source texts for a privacy policy in german and english provided via JSON-files.",
+    "description": "Open source texts for a GDPR compliant privacy policy in german and english. Available as php or json.",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/webflorist/privacy-policy-text.git"
