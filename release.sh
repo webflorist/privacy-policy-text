@@ -117,15 +117,10 @@ then
 
     echo
     echo "============"
-    echo "Creating tag"
+    echo "Creating and pushing tag"
     echo "============"
     git tag -a v${new_version} -m "v${new_version}"
     if [[ $? > 0 ]]; then exit 1; fi
-
-    echo
-    echo "==========="
-    echo "Pushing tag"
-    echo "==========="
     git push --tags
     if [[ $? > 0 ]]; then exit 1; fi
 
