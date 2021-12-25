@@ -37,6 +37,13 @@ then
 fi
 
 echo
+echo "============="
+echo "Checking lint"
+echo "============="
+yarn lint
+if [[ $? > 0 ]]; then exit 1; fi
+
+echo
 echo "============"
 echo "Pulling tags"
 echo "============"

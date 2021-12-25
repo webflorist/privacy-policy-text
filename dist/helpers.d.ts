@@ -1,1 +1,1 @@
-export function renderText(test: string): string;
+export function renderText(test: string): string

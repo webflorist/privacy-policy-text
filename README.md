@@ -24,29 +24,29 @@ Currently the package includes files in `php` as well as `json` format.
 
 Any dynamic parts of the language files can be interpolated by the translation-library of your choice. The following formats are supported:
 
-- with colon prefix (`:key`)  
-  (e.g. used by [Laravel](https://laravel.com/docs/8.x/localization#replacing-parameters-in-translation-strings))
-- wrapped with curly braces (`{key}`)  
-  (e.g. used by [Vue I18n](https://vue-i18n.intlify.dev/guide/essentials/syntax.html#interpolations))
-- wrapped with double curly braces (`{{key}}`)  
-  (e.g. used by [i18next](https://www.i18next.com/translation-function/interpolation))
+-   with colon prefix (`:key`)  
+    (e.g. used by [Laravel](https://laravel.com/docs/8.x/localization#replacing-parameters-in-translation-strings))
+-   wrapped with curly braces (`{key}`)  
+    (e.g. used by [Vue I18n](https://vue-i18n.intlify.dev/guide/essentials/syntax.html#interpolations))
+-   wrapped with double curly braces (`{{key}}`)  
+    (e.g. used by [i18next](https://www.i18next.com/translation-function/interpolation))
 
 ## Included Texts
 
-- A general intro text
-- Listing of GDPR rights
-- General data security text (SSL, etc.)
-- Cookies information
-- Information on data logging of infrastructure (e.g. webhosting, analytics, etc.):
-  - Webserver logging
-  - Web analytics
-  - Interactive maps
-  - Sending of emails (e.g. contact forms)
-- Info regarding outgoing links
+-   A general intro text
+-   Listing of GDPR rights
+-   General data security text (SSL, etc.)
+-   Cookies information
+-   Information on data logging of infrastructure (e.g. webhosting, analytics, etc.):
+    -   Webserver logging
+    -   Web analytics
+    -   Interactive maps
+    -   Sending of emails (e.g. contact forms)
+-   Info regarding outgoing links
 
 ## Disclaimer
 
-The included text *should* be suitable for a GDPR-compliant website.
+The included text _should_ be suitable for a GDPR-compliant website.
 I however do not take any responsibility whatsowever for that.
 
 ## License
