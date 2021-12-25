@@ -9,11 +9,11 @@ This package includes open source texts for a GDPR conform privacy policy of a w
 
 ### Languages
 
-Currently the package includes texts in german and englisch language
+Currently the package includes texts in **german** and **english** language.
 
 ### Singular/Plural
 
-The files are provided both in singular and plural viewpoints.
+The files are provided both from singular and plural viewpoints.  
 (e.g. `My website...` vs `Our website...`)
 
 ### Formats
