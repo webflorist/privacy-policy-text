@@ -37,5 +37,6 @@
         "access": "public",
         "scope": "@webflorist",
         "registry": "https://registry.npmjs.org"
-    }
+    },
+    "version": "1.0.4"
 }
