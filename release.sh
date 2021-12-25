@@ -29,7 +29,7 @@ if [[ $? > 0 ]]; then exit 1; fi
 # Check, if there are uncommited changes
 git_status=$(git status)
 if [[ $? > 0 ]]; then exit 1; fi
-if [[ $string == *"nothing to commit, working tree clean"* ]]
+if [[ $string != *"nothing to commit, working tree clean"* ]]
 then
     echo
     echo "You seem to have uncommited changes. Please commit them before releasing a new version!"
