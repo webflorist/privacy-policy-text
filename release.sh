@@ -98,7 +98,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 		exit 1
 	fi
 	sed -i "s/$search/$replace/" package.json
-	echo $?
 	if [[ $? > 0 ]]; then exit 1; fi
 
 	echo
