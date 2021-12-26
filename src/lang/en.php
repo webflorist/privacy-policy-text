@@ -16,7 +16,7 @@ return [
 			' website. It also provides information about your rights and how they are protected.',
 		'p2' =>
 			($s ? 'My' : 'Our') .
-			' website collect and process your data exclusively based on existing laws - e.g. the European General Data Protection Regulation ("GDPR"). The collected personal information is used to provide and improve ' .
+			' website collects and processes your data exclusively based on existing laws - e.g. the European General Data Protection Regulation ("GDPR"). The collected personal information is used to provide and improve ' .
 			($s ? 'my' : 'our') .
 			' services. ' .
 			($s ? 'I' : 'We') .
@@ -262,11 +262,11 @@ return [
 					($s ? 'My' : 'Our') .
 					' website includes forms, that can be used to send ' .
 					($s ? 'me' : 'us') .
-					' an e-mail. The form collects your name, e-mail-address as well other data. When submitting the contact-request, this data will be transmitted via the service **' .
+					' an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **' .
 					$i('send_emails_service') .
 					'** of ' .
 					($s ? 'my' : 'our') .
-					' our processor [' .
+					' processor [' .
 					$i('send_emails_processor_name') .
 					'](#processor-' .
 					$i('send_emails_processor_id') .
@@ -299,7 +299,7 @@ return [
 	'data_purpose' => [
 		'title' => 'Purpose',
 		'webserver' => 'Providing website and depending services',
-		'analytics' => 'Processing of data for web analyzing pupposes',
+		'analytics' => 'Processing of data for web analysing purposes',
 		'maps' => 'Displaying of interactive maps',
 		'send_emails' => 'Sending of e-mails (e.g. via contact form)',
 		'subscription' => 'Managing subscriptions',
@@ -308,7 +308,7 @@ return [
 
 	/* List of data categories */
 	'data_category' => [
-		'title' => 'Daten-Kategorien',
+		'title' => 'Data Categories',
 		'inventory_data' => 'Inventory Data',
 		'usage_data' => 'Usage Data',
 		'geo_data' => 'Geo Data',

@@ -22,7 +22,7 @@ return [
 			($s ? 'meiner' : 'unserer') .
 			' Dienstleistungen. ' .
 			($s ? 'Ich werde' : 'Wir werden') .
-			' Ihre persönlichen Daten niemals anderweitig nutzen oder teilen, als als in dieser Erklärung beschrieben. Wenn Sie ' .
+			' Ihre persönlichen Daten niemals anderweitig nutzen oder teilen, als in dieser Erklärung beschrieben. Wenn Sie ' .
 			($s ? 'meine' : 'unsere') .
 			' Dienstleistungen nutzen, stimmen Sie der Verarbeitung von Daten im Rahmen dieser Datenschutzerklärung zu.',
 	],
@@ -92,7 +92,7 @@ return [
 			'p3' =>
 				'Die meisten Web-Browser bieten Funktionen zur Anzeige und zum Löschen von bereits gesetzten Cookies. Weiters können Sie Ihren Browser auch so konfigurieren, dass keinerlei Cookies gesetzt werden. Bitte beachten Sie aber, dass dadurch ' .
 				($s ? 'meine' : 'unsere') .
-				' Webseite nur mehr engeschränkt funktioniert.',
+				' Webseite nur mehr eingeschränkt funktioniert.',
 		],
 		'no_cookies_content' => [
 			'p1' =>
@@ -139,7 +139,7 @@ return [
 			'analytics_third_party' =>
 				'Diese Cookies werden vom Web-Analyse-Tool erstellt, welches ' .
 				($s ? 'ich' : 'wir') .
-				' zum verstehen und verbessern des Benutzerverhaltens ' .
+				' zum Verstehen und Verbessern des Benutzerverhaltens ' .
 				($s ? 'nutze' : 'nutzen') .
 				'. (Mehr Informationen finden Sie im [Web-Analyse-Abschnitt](#process-analytics).)',
 			'maps_third_party' =>
@@ -216,7 +216,7 @@ return [
 					$i('analytics_processor_id') .
 					') gesendet. Dieser Dienst sammelt Daten über die Verwendung der Webseite für statistische Zwecke und um die Benutzerführung ' .
 					($s ? 'meiner' : 'unserer') .
-					' Seite zu verbessern. Sämtliche gesammelten Daten werden pseudonymisiert (durch Löschen eines Teils Ihrer IP Adresse) und können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen ' .
+					' Seite zu verbessern. Sämtliche gesammelten Daten werden pseudonymisiert (durch Löschen eines Teils Ihrer IP-Adresse) und können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen ' .
 					($s ? 'mir' : 'uns') .
 					' und ' .
 					$i('analytics_processor_name') .
@@ -252,7 +252,7 @@ return [
 
 		// Sending of emails (e.g. contact forms)
 		'send_emails' => [
-			'title' => 'E-Mail Versand',
+			'title' => 'E-Mail-Versand',
 			'content' => [
 				'p1' =>
 					($s ? 'Meine' : 'Unsere') .
@@ -279,7 +279,7 @@ return [
 				($s ? 'Meine' : 'Unsere') .
 				' Webseite beinhaltet Links zu anderen Webseiten, die nicht von ' .
 				($s ? 'mir' : 'uns') .
-				' betrieben wird. Wenn Sie auf einen solchen ausgehenden Link klicken, werden Sie zu dieser Webseite weitergeleitet. ' .
+				' betrieben werden. Wenn Sie auf einen solchen ausgehenden Link klicken, werden Sie zu dieser Webseite weitergeleitet. ' .
 				($s ? 'Ich habe' : 'Wir haben') .
 				' keinerlei Einfluss auf diese Webseiten und ihren Datenschutz und übernehme' .
 				($s ? '' : 'n') .
