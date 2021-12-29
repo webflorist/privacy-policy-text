@@ -2,7 +2,7 @@
 
 class FileGenerator
 {
-	const FORMAT = ['json', 'php'];
+	const FORMAT = ['json', 'php', 'js'];
 	const INTERPOLATION = ['curly-wrap', 'double-curly-wrap', 'colon-prefix'];
 	const NUMERUS = ['singular', 'plural'];
 
@@ -21,6 +21,7 @@ class FileGenerator
 	{
 		self::rrmdir($this->distDir . '/json');
 		self::rrmdir($this->distDir . '/php');
+		self::rrmdir($this->distDir . '/js');
 		mkdir($this->distDir);
 
 		$localeFiles = array_diff(scandir($this->langDir), ['..', '.']);
@@ -59,6 +60,12 @@ class FileGenerator
 			$this->distDir . '/php/processors.php',
 			'php'
 		);
+
+		$this->renderFile(
+			$this->currentDir . '/processors.php',
+			$this->distDir . '/js/processors.js',
+			'js'
+		);
 	}
 
 	private function renderFile(
@@ -79,6 +86,12 @@ class FileGenerator
 
 		if ($format === 'json') {
 			$jsonCode = json_encode($translationData, JSON_PRETTY_PRINT);
+			file_put_contents($outputFile, $jsonCode);
+		}
+
+		if ($format === 'js') {
+			$jsonCode =
+				'export default ' . json_encode($translationData, JSON_PRETTY_PRINT);
 			file_put_contents($outputFile, $jsonCode);
 		}
 	}
