@@ -30,8 +30,8 @@
 	},
 	"files": [
 		"dist/**/*.json",
-		"dist/*.ts",
-		"dist/*.js"
+		"dist/**/*.ts",
+		"dist/**/*.js"
 	],
 	"scripts": {
 		"lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
