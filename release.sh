@@ -84,7 +84,7 @@ echo "Changelog"
 echo "========="
 changelog=$(git log --pretty="- %s (%h)" v${old_version}...)
 if [[ $? > 0 ]]; then exit 1; fi
-echo $changelog
+echo "$changelog"
 
 echo
 read -p "Do you want to release this version? (y/n)" -n 1 -r
@@ -105,7 +105,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	new_changelog+=$changelog
 	new_changelog+=$(cat CHANGELOG.md)
 	echo "$new_changelog" > CHANGELOG.md
-	exit
 
 	echo
 	echo "==============================="
