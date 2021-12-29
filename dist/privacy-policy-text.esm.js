@@ -1,19 +1,19 @@
-import colonPrefixSingularDe from './json/colon-prefix/singular/de.json'
-import colonPrefixSingularEn from './json/colon-prefix/singular/en.json'
-import colonPrefixPluralDe from './json/colon-prefix/plural/de.json'
-import colonPrefixPluralEn from './json/colon-prefix/plural/en.json'
+import colonPrefixSingularDe from './js/colon-prefix/singular/de.js'
+import colonPrefixSingularEn from './js/colon-prefix/singular/en.js'
+import colonPrefixPluralDe from './js/colon-prefix/plural/de.js'
+import colonPrefixPluralEn from './js/colon-prefix/plural/en.js'
 
-import curlyWrapSingularDe from './json/curly-wrap/singular/de.json'
-import curlyWrapSingularEn from './json/curly-wrap/singular/en.json'
-import curlyWrapPluralDe from './json/curly-wrap/plural/de.json'
-import curlyWrapPluralEn from './json/curly-wrap/plural/en.json'
+import curlyWrapSingularDe from './js/curly-wrap/singular/de.js'
+import curlyWrapSingularEn from './js/curly-wrap/singular/en.js'
+import curlyWrapPluralDe from './js/curly-wrap/plural/de.js'
+import curlyWrapPluralEn from './js/curly-wrap/plural/en.js'
 
-import doubleCurlyWrapSingularDe from './json/double-curly-wrap/singular/de.json'
-import doubleCurlyWrapSingularEn from './json/double-curly-wrap/singular/en.json'
-import doubleCurlyWrapPluralDe from './json/double-curly-wrap/plural/de.json'
-import doubleCurlyWrapPluralEn from './json/double-curly-wrap/plural/en.json'
+import doubleCurlyWrapSingularDe from './js/double-curly-wrap/singular/de.js'
+import doubleCurlyWrapSingularEn from './js/double-curly-wrap/singular/en.js'
+import doubleCurlyWrapPluralDe from './js/double-curly-wrap/plural/de.js'
+import doubleCurlyWrapPluralEn from './js/double-curly-wrap/plural/en.js'
 
-import processors from './json/processors.json'
+import processors from './js/processors.js'
 
 import { renderText } from './helpers.js'
 
