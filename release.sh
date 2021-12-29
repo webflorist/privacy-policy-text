@@ -127,7 +127,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	echo "=================="
 	echo "Committing changes"
 	echo "=================="
-	git commit -a -m "PREPARE new release ${new_version}"
+	git commit -a -m "RELEASE ${new_version}"
 	if [[ $? > 0 ]]; then exit 1; fi
 
 	echo
