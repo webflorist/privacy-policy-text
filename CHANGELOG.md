@@ -1,5 +1,9 @@
 # Release Notes
 
+## [v1.2.0 (2021-12-31)](https://github.com/webflorist/privacy-policy-text/compare/v1.1.2...v1.2.0)
+
+- ADD storyblok processor, change interpolations (84f08d8)
+
 ## [v1.1.2 (2021-12-31)](https://github.com/webflorist/privacy-policy-text/compare/v1.1.1...v1.1.2)
 
 - ADD rollup (d4a71ec)
