@@ -1,3 +1,7 @@
+'use strict'
+
+Object.defineProperty(exports, '__esModule', { value: true })
+
 var colonPrefixSingularDe = {
 	privacy_policy: 'Datenschutzerkl\u00e4rung',
 	processor_list: 'Liste von Auftragsverarbeitern',
@@ -1915,13 +1919,11 @@ const doubleCurlyWrapPlural = {
 	en: doubleCurlyWrapPluralEn,
 }
 
-export {
-	colonPrefixPlural,
-	colonPrefixSingular,
-	curlyWrapPlural,
-	curlyWrapSingular,
-	doubleCurlyWrapPlural,
-	doubleCurlyWrapSingular,
-	processors,
-	renderText,
-}
+exports.colonPrefixPlural = colonPrefixPlural
+exports.colonPrefixSingular = colonPrefixSingular
+exports.curlyWrapPlural = curlyWrapPlural
+exports.curlyWrapSingular = curlyWrapSingular
+exports.doubleCurlyWrapPlural = doubleCurlyWrapPlural
+exports.doubleCurlyWrapSingular = doubleCurlyWrapSingular
+exports.processors = processors
+exports.renderText = renderText
