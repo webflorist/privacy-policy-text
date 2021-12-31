@@ -1924,10 +1924,22 @@ const doubleCurlyWrapPlural = {
 	en: doubleCurlyWrapPluralEn,
 }
 
+var module$1 = {
+	colonPrefixSingular,
+	colonPrefixPlural,
+	curlyWrapSingular,
+	curlyWrapPlural,
+	doubleCurlyWrapSingular,
+	doubleCurlyWrapPlural,
+	processors,
+	renderText,
+}
+
 exports.colonPrefixPlural = colonPrefixPlural
 exports.colonPrefixSingular = colonPrefixSingular
 exports.curlyWrapPlural = curlyWrapPlural
 exports.curlyWrapSingular = curlyWrapSingular
+exports['default'] = module$1
 exports.doubleCurlyWrapPlural = doubleCurlyWrapPlural
 exports.doubleCurlyWrapSingular = doubleCurlyWrapSingular
 exports.processors = processors

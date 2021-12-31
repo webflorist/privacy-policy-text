@@ -54,3 +54,14 @@ export {
 	processors,
 	renderText,
 }
+
+export default {
+	colonPrefixSingular,
+	colonPrefixPlural,
+	curlyWrapSingular,
+	curlyWrapPlural,
+	doubleCurlyWrapSingular,
+	doubleCurlyWrapPlural,
+	processors,
+	renderText,
+}

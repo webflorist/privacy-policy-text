@@ -1920,11 +1920,23 @@ const doubleCurlyWrapPlural = {
 	en: doubleCurlyWrapPluralEn,
 }
 
+var module = {
+	colonPrefixSingular,
+	colonPrefixPlural,
+	curlyWrapSingular,
+	curlyWrapPlural,
+	doubleCurlyWrapSingular,
+	doubleCurlyWrapPlural,
+	processors,
+	renderText,
+}
+
 export {
 	colonPrefixPlural,
 	colonPrefixSingular,
 	curlyWrapPlural,
 	curlyWrapSingular,
+	module as default,
 	doubleCurlyWrapPlural,
 	doubleCurlyWrapSingular,
 	processors,

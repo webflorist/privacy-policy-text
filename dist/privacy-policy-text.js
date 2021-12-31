@@ -1924,10 +1924,22 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 		en: doubleCurlyWrapPluralEn,
 	}
 
+	var module = {
+		colonPrefixSingular,
+		colonPrefixPlural,
+		curlyWrapSingular,
+		curlyWrapPlural,
+		doubleCurlyWrapSingular,
+		doubleCurlyWrapPlural,
+		processors,
+		renderText,
+	}
+
 	exports.colonPrefixPlural = colonPrefixPlural
 	exports.colonPrefixSingular = colonPrefixSingular
 	exports.curlyWrapPlural = curlyWrapPlural
 	exports.curlyWrapSingular = curlyWrapSingular
+	exports['default'] = module
 	exports.doubleCurlyWrapPlural = doubleCurlyWrapPlural
 	exports.doubleCurlyWrapSingular = doubleCurlyWrapSingular
 	exports.processors = processors
