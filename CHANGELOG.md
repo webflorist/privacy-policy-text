@@ -1,5 +1,9 @@
 # Release Notes
 
+## [v1.2.1 (2021-12-31)](https://github.com/webflorist/privacy-policy-text/compare/v1.2.0...v1.2.1)
+
+- ADD default export (3d28236)
+
 ## [v1.2.0 (2021-12-31)](https://github.com/webflorist/privacy-policy-text/compare/v1.1.2...v1.2.0)
 
 - ADD storyblok processor, change interpolations (84f08d8)
