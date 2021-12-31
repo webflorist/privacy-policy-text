@@ -31,4 +31,9 @@ return [
 		'address' => '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
 		'privacy_policy' => 'https://stripe.com/privacy',
 	],
+	'storyblok' => [
+		'name' => 'Storyblok GmbH',
+		'address' => 'Peter-Behrens-Platz 2, A-4020 Linz, Austria, EU',
+		'privacy_policy' => 'https://www.storyblok.com/legal/privacy-policy',
+	],
 ];

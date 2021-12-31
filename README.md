@@ -7,19 +7,17 @@ This package includes open source texts for a GDPR conform privacy policy of a w
 
 ## Table Of Contents
 
-- [Features](#features)
-  - [Languages](#languages)
-  - [Singular/Plural](#singularplural)
-  - [Formats](#formats)
-- [Included Texts](#included-texts)
-- [Ecosystem](#ecosystem)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [In Javascript](#in-javascript)
-  - [Interpolations](#interpolations)
-  - [Markdown Functionality](#markdown-functionality)
-- [Disclaimer](#disclaimer)
-- [License](#license)
+- [Privacy Policy Texts in German and English](#privacy-policy-texts-in-german-and-english)
+  - [Table Of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Ecosystem](#ecosystem)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [In Javascript](#in-javascript)
+    - [Interpolations](#interpolations)
+    - [Markdown Functionality](#markdown-functionality)
+  - [Disclaimer](#disclaimer)
+  - [License](#license)
 
 ## Features
 
@@ -40,7 +38,7 @@ This package includes open source texts for a GDPR conform privacy policy of a w
   - General **data security** text (SSL, etc.)
   - **Cookies** information
   - Information on **data processing** of third party data processors:
-    - Webserver
+    - Webhosting
     - Web analytics
     - Interactive maps
     - Sending of emails (e.g. contact forms)
@@ -119,18 +117,13 @@ provideTranslations({
 
 const interpolations = {
     'privacy_email': 'email@example.com',
-    'webserver_service': 'Netlify Platform',
-    'webserver_processor_name': 'Netlify Inc.',
-    'webserver_processor_id': 'netlify',
+    'webhosting_processor': 'Netlify Inc.',
     'analytics_service': 'Google Analytics',
-    'analytics_processor_name': 'Google Ireland Limited',
-    'analytics_processor_id': 'google_eu',
+    'analytics_processor': 'Google Ireland Limited',
     'maps_service': 'Google Maps',
-    'maps_processor_name': 'Google LLC',
-    'maps_processor_id': 'google_usa',
+    'maps_processor': 'Google LLC',
     'send_emails_service': 'Twilio Sendgrid',
-    'send_emails_processor_name': 'Twilio Inc.',
-    'send_emails_processor_id': 'twilio_usa',
+    'send_emails_processor': 'Twilio Inc.',
 }
 
 // Custom translation function, which uses renderText
@@ -171,32 +164,24 @@ The following interpolations are present in the language files:
     'privacy_email': 'email@example.com',
 
     // Name of the webhosting service
-    'webserver_service': 'Netlify Platform',
+    'webhosting_service': 'Netlify Platform',
     // Company name of the webhosting processor
-    'webserver_processor_name': 'Netlify Inc.',
-    // ID of the webhosting processor (used for anchor link #processor-netlify)
-    'webserver_processor_id': 'netlify',
+    'webhosting_processor': 'Netlify Inc.',
 
     // Name of the analytics service
     'analytics_service': 'Google Analytics',
     // Company name of the analytics processor
-    'analytics_processor_name': 'Google Ireland Limited',
-    // ID of the analytics processor (used for anchor link #processor-google_eu)
-    'analytics_processor_id': 'google_eu',
+    'analytics_processor': 'Google Ireland Limited',
 
     // Name of the maps service
     'maps_service': 'Google Maps',
     // Company name of the maps processor
-    'maps_processor_name': 'Google LLC',
-    // ID of the maps processor (used for anchor link #processor-google_usa)
-    'maps_processor_id': 'google_usa',
+    'maps_processor': 'Google LLC',
 
     // Name of the email sending service
     'send_emails_service': 'Twilio Sendgrid',
     // Company name of the email sending processor
-    'send_emails_processor_name': 'Twilio Inc.',
-    // ID of the email sending processor (used for anchor link #processor-twilio_usa)
-    'send_emails_processor_id': 'twilio_usa',
+    'send_emails_processor': 'Twilio Inc.',
 }
 ```
 

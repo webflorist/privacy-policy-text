@@ -29,7 +29,7 @@ return [
 					'**Recht auf Übertragung** Ihrer persönlichen Informationen an Sie.',
 			],
 			'p2' =>
-				'Sie können uns gerne unter [:privacy_email](mailto::privacy_email) kontaktieren, wenn Sie Fragen oder Wünsche in Bezug auf diese Rechte haben.',
+				'Sie können uns gerne unter :privacy_email kontaktieren, wenn Sie Fragen oder Wünsche in Bezug auf diese Rechte haben.',
 		],
 	],
 	'security' => [
@@ -111,11 +111,11 @@ return [
 	],
 	'data_processing' => [
 		'title' => 'Sammlung und Verwendung von Daten',
-		'webserver' => [
-			'title' => 'Webserver',
+		'webhosting' => [
+			'title' => 'Webhosting',
 			'content' => [
 				'p1' =>
-					'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In unseren Fall handelt es sich um den Dienst **:webserver_service** von [:webserver_processor_name](#processor-:webserver_processor_id). Dabei können folgende Arten von Daten übertragen werden:',
+					'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In unseren Fall werden diese Dienste von :webhosting_processor zur Verfügung gestellt. Dabei können folgende Arten von Daten übertragen werden:',
 				'ul1' => [
 					'li1' => 'IP (Internet Protocol) Adresse Ihres Endgerätes,',
 					'li2' => 'Zeit, Datum und Dauer Ihres Besuchs,',
@@ -124,14 +124,14 @@ return [
 						'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				],
 				'p2' =>
-					'Diese Daten werden automatisch übertragen und geloggt, um die Erreichbarkeit, Funktionalität, Sicherheit und Stabilität unserer Webseite zu gewährleisten. Die Daten bleiben gespeichert bis die Logdatei gelöscht wird. Die gesammelten Daten sind technisch notwendig für den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :webserver_processor_name. Sammlung und Verarbeitung dieser Daten erfolgt in Übereinstimmung mit Artikel 6 (1) der DSGVO.',
+					'Diese Daten werden automatisch übertragen und geloggt, um die Erreichbarkeit, Funktionalität, Sicherheit und Stabilität unserer Webseite zu gewährleisten. Die Daten bleiben gespeichert bis die Logdatei gelöscht wird. Die gesammelten Daten sind technisch notwendig für den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :webhosting_processor. Sammlung und Verarbeitung dieser Daten erfolgt in Übereinstimmung mit Artikel 6 (1) der DSGVO.',
 			],
 		],
 		'analytics' => [
 			'title' => 'Web-Analyse',
 			'content' => [
 				'p1' =>
-					'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **:analytics_service** von [:analytics_processor_name](#processor-:analytics_processor_id) gesendet. Dieser Dienst sammelt Daten über die Verwendung der Webseite für statistische Zwecke und um die Benutzerführung unserer Seite zu verbessern. Sämtliche gesammelten Daten werden pseudonymisiert (durch Löschen eines Teils Ihrer IP-Adresse) und können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :analytics_processor_name. Die Daten bleiben für die Dauer von 26 Monaten gespeichert.',
+					'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **:analytics_service** von :analytics_processor gesendet. Dieser Dienst sammelt Daten über die Verwendung der Webseite für statistische Zwecke und um die Benutzerführung unserer Seite zu verbessern. Sämtliche gesammelten Daten werden pseudonymisiert (durch Löschen eines Teils Ihrer IP-Adresse) und können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :analytics_processor. Die Daten bleiben für die Dauer von 26 Monaten gespeichert.',
 				'p2' =>
 					'Bitte beachten Sie, dass keinerlei Daten zu :analytics_service transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in Übereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			],
@@ -140,7 +140,7 @@ return [
 			'title' => 'Interaktive Karten',
 			'content' => [
 				'p1' =>
-					'Unsere Webseite bietet auf Anforderung die Funktionalität zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtsplänen). Dabei wird der Dienst **:maps_service** von [:maps_processor_name](#processor-:maps_processor_id) verwendet.',
+					'Unsere Webseite bietet auf Anforderung die Funktionalität zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtsplänen). Dabei wird der Dienst **:maps_service** von :maps_processor verwendet.',
 				'p2' =>
 					'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch persönliche Daten (wie Nutzungs- und Standort-Daten) an :maps_service gesendet sowie diverse Cookies gesetzt.',
 				'p3' =>
@@ -151,7 +151,7 @@ return [
 			'title' => 'E-Mail-Versand',
 			'content' => [
 				'p1' =>
-					'Unsere Webseite verfügt über Formulare, die verwendet werden können, um uns eine E-Mail zu senden. Im Formular können Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese über den Dienst **:send_emails_service** vom Anbieter [:send_emails_processor_name](#processor-:send_emails_processor_id) in unsere Mailbox zugestellt.',
+					'Unsere Webseite verfügt über Formulare, die verwendet werden können, um uns eine E-Mail zu senden. Im Formular können Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese über den Dienst **:send_emails_service** vom Anbieter :send_emails_processor in unsere Mailbox zugestellt.',
 			],
 		],
 	],
@@ -164,7 +164,7 @@ return [
 	],
 	'data_purpose' => [
 		'title' => 'Zweck',
-		'webserver' => 'Hosten der Webseite und benötigter Dienste',
+		'webhosting' => 'Hosten der Webseite und benötigter Dienste',
 		'analytics' => 'Verarbeitung von Daten zur Web-Analyse',
 		'maps' => 'Darstellung interaktiver Karten',
 		'send_emails' => 'Senden von E-Mails (z.B. via Kontaktformularen)',

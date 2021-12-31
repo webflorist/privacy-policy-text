@@ -23,7 +23,7 @@ var colonPrefixSingularDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen mich gerne unter [:privacy_email](mailto::privacy_email) kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+			p2: 'Sie k\u00f6nnen mich gerne unter :privacy_email kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
 		},
 	},
 	security: {
@@ -95,30 +95,30 @@ var colonPrefixSingularDe = {
 	},
 	data_processing: {
 		title: 'Sammlung und Verwendung von Daten',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In meinem Fall handelt es sich um den Dienst **:webserver_service** von [:webserver_processor_name](#processor-:webserver_processor_id). Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
+				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In meinem Fall werden diese Dienste von :webhosting_processor zur Verf\u00fcgung gestellt. Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
 				ul1: {
 					li1: 'IP (Internet Protocol) Adresse Ihres Endger\u00e4tes,',
 					li2: 'Zeit, Datum und Dauer Ihres Besuchs,',
 					li3: 'besuchte Seiten,',
 					li4: 'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				},
-				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t meiner Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und :webserver_processor_name. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
+				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t meiner Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und :webhosting_processor. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
 			},
 		},
 		analytics: {
 			title: 'Web-Analyse',
 			content: {
-				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **:analytics_service** von [:analytics_processor_name](#processor-:analytics_processor_id) gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung meiner Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und :analytics_processor_name. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
+				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **:analytics_service** von :analytics_processor gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung meiner Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und :analytics_processor. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
 				p2: 'Bitte beachten Sie, dass keinerlei Daten zu :analytics_service transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
 		},
 		maps: {
 			title: 'Interaktive Karten',
 			content: {
-				p1: 'Meine Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **:maps_service** von [:maps_processor_name](#processor-:maps_processor_id) verwendet.',
+				p1: 'Meine Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **:maps_service** von :maps_processor verwendet.',
 				p2: 'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch pers\u00f6nliche Daten (wie Nutzungs- und Standort-Daten) an :maps_service gesendet sowie diverse Cookies gesetzt.',
 				p3: 'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit im Datenschutz-Hinweis zustimmen, der bei Ihrem ersten Aufruf einer interaktiven Karte erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
@@ -126,7 +126,7 @@ var colonPrefixSingularDe = {
 		send_emails: {
 			title: 'E-Mail-Versand',
 			content: {
-				p1: 'Meine Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um mir eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **:send_emails_service** vom Anbieter [:send_emails_processor_name](#processor-:send_emails_processor_id) in meine Mailbox zugestellt.',
+				p1: 'Meine Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um mir eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **:send_emails_service** vom Anbieter :send_emails_processor in meine Mailbox zugestellt.',
 			},
 		},
 	},
@@ -138,7 +138,7 @@ var colonPrefixSingularDe = {
 	},
 	data_purpose: {
 		title: 'Zweck',
-		webserver: 'Hosten der Webseite und ben\u00f6tigter Dienste',
+		webhosting: 'Hosten der Webseite und ben\u00f6tigter Dienste',
 		analytics: 'Verarbeitung von Daten zur Web-Analyse',
 		maps: 'Darstellung interaktiver Karten',
 		send_emails: 'Senden von E-Mails (z.B. via Kontaktformularen)',
@@ -177,7 +177,7 @@ var colonPrefixSingularEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact me at [:privacy_email](mailto::privacy_email).',
+			p2: 'If you have questions or requests regarding these rights, feel free to contact me at :privacy_email.',
 		},
 	},
 	security: {
@@ -248,30 +248,30 @@ var colonPrefixSingularEn = {
 	},
 	data_processing: {
 		title: 'Data Collection, Processing and Usage',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In my case these are provided by [:webserver_processor_name](#processor-:webserver_processor_id) using the service **:webserver_service**. The transmitted information can include the following types of data:',
+				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In my case these are provided by :webhosting_processor. The transmitted information can include the following types of data:',
 				ul1: {
 					li1: "your device's IP (Internet Protocol) address,",
 					li2: 'time, date and duration of your visit,',
 					li3: 'visited pages,',
 					li4: 'type, version and language of your browser and operating system.',
 				},
-				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and [:webserver_processor_name](#processor-:webserver_processor_id). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and :webhosting_processor. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			},
 		},
 		analytics: {
 			title: 'Web Analytics',
 			content: {
-				p1: 'If you accept web analytics in the cookie notification, my website will forward log data to the service **:analytics_service** provided by [:analytics_processor_name](#processor-:analytics_processor_id). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [:analytics_processor_name](#processor-:analytics_processor_id). Data will be stored for the duration 26 months.',
+				p1: 'If you accept web analytics in the cookie notification, my website will forward log data to the service **:analytics_service** provided by :analytics_processor. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and :analytics_processor. Data will be stored for the duration 26 months.',
 				p2: 'Please note, that no data will be transferred to :analytics_service at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
 		},
 		maps: {
 			title: 'Interactive Maps',
 			content: {
-				p1: 'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **:maps_service** provided by [:maps_processor_name](#processor-:maps_processor_id).',
+				p1: 'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **:maps_service** provided by :maps_processor.',
 				p2: 'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to :maps_service and needed cookies will be set.',
 				p3: 'Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
@@ -279,7 +279,7 @@ var colonPrefixSingularEn = {
 		send_emails: {
 			title: 'E-Mail Submission',
 			content: {
-				p1: 'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **:send_emails_service** of my processor [:send_emails_processor_name](#processor-:send_emails_processor_id) into my mailbox.',
+				p1: 'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **:send_emails_service** of my processor :send_emails_processor into my mailbox.',
 			},
 		},
 	},
@@ -291,7 +291,7 @@ var colonPrefixSingularEn = {
 	},
 	data_purpose: {
 		title: 'Purpose',
-		webserver: 'Providing website and depending services',
+		webhosting: 'Providing website and depending services',
 		analytics: 'Processing of data for web analysing purposes',
 		maps: 'Displaying of interactive maps',
 		send_emails: 'Sending of e-mails (e.g. via contact form)',
@@ -330,7 +330,7 @@ var colonPrefixPluralDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen uns gerne unter [:privacy_email](mailto::privacy_email) kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+			p2: 'Sie k\u00f6nnen uns gerne unter :privacy_email kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
 		},
 	},
 	security: {
@@ -402,30 +402,30 @@ var colonPrefixPluralDe = {
 	},
 	data_processing: {
 		title: 'Sammlung und Verwendung von Daten',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In unseren Fall handelt es sich um den Dienst **:webserver_service** von [:webserver_processor_name](#processor-:webserver_processor_id). Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
+				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In unseren Fall werden diese Dienste von :webhosting_processor zur Verf\u00fcgung gestellt. Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
 				ul1: {
 					li1: 'IP (Internet Protocol) Adresse Ihres Endger\u00e4tes,',
 					li2: 'Zeit, Datum und Dauer Ihres Besuchs,',
 					li3: 'besuchte Seiten,',
 					li4: 'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				},
-				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t unserer Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :webserver_processor_name. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
+				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t unserer Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :webhosting_processor. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
 			},
 		},
 		analytics: {
 			title: 'Web-Analyse',
 			content: {
-				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **:analytics_service** von [:analytics_processor_name](#processor-:analytics_processor_id) gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung unserer Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :analytics_processor_name. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
+				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **:analytics_service** von :analytics_processor gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung unserer Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und :analytics_processor. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
 				p2: 'Bitte beachten Sie, dass keinerlei Daten zu :analytics_service transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
 		},
 		maps: {
 			title: 'Interaktive Karten',
 			content: {
-				p1: 'Unsere Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **:maps_service** von [:maps_processor_name](#processor-:maps_processor_id) verwendet.',
+				p1: 'Unsere Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **:maps_service** von :maps_processor verwendet.',
 				p2: 'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch pers\u00f6nliche Daten (wie Nutzungs- und Standort-Daten) an :maps_service gesendet sowie diverse Cookies gesetzt.',
 				p3: 'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit im Datenschutz-Hinweis zustimmen, der bei Ihrem ersten Aufruf einer interaktiven Karte erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
@@ -433,7 +433,7 @@ var colonPrefixPluralDe = {
 		send_emails: {
 			title: 'E-Mail-Versand',
 			content: {
-				p1: 'Unsere Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um uns eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **:send_emails_service** vom Anbieter [:send_emails_processor_name](#processor-:send_emails_processor_id) in unsere Mailbox zugestellt.',
+				p1: 'Unsere Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um uns eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **:send_emails_service** vom Anbieter :send_emails_processor in unsere Mailbox zugestellt.',
 			},
 		},
 	},
@@ -445,7 +445,7 @@ var colonPrefixPluralDe = {
 	},
 	data_purpose: {
 		title: 'Zweck',
-		webserver: 'Hosten der Webseite und ben\u00f6tigter Dienste',
+		webhosting: 'Hosten der Webseite und ben\u00f6tigter Dienste',
 		analytics: 'Verarbeitung von Daten zur Web-Analyse',
 		maps: 'Darstellung interaktiver Karten',
 		send_emails: 'Senden von E-Mails (z.B. via Kontaktformularen)',
@@ -484,7 +484,7 @@ var colonPrefixPluralEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact us at [:privacy_email](mailto::privacy_email).',
+			p2: 'If you have questions or requests regarding these rights, feel free to contact us at :privacy_email.',
 		},
 	},
 	security: {
@@ -555,30 +555,30 @@ var colonPrefixPluralEn = {
 	},
 	data_processing: {
 		title: 'Data Collection, Processing and Usage',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In our case these are provided by [:webserver_processor_name](#processor-:webserver_processor_id) using the service **:webserver_service**. The transmitted information can include the following types of data:',
+				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In our case these are provided by :webhosting_processor. The transmitted information can include the following types of data:',
 				ul1: {
 					li1: "your device's IP (Internet Protocol) address,",
 					li2: 'time, date and duration of your visit,',
 					li3: 'visited pages,',
 					li4: 'type, version and language of your browser and operating system.',
 				},
-				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of our website and enables us to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [:webserver_processor_name](#processor-:webserver_processor_id). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of our website and enables us to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and :webhosting_processor. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			},
 		},
 		analytics: {
 			title: 'Web Analytics',
 			content: {
-				p1: 'If you accept web analytics in the cookie notification, our website will forward log data to the service **:analytics_service** provided by [:analytics_processor_name](#processor-:analytics_processor_id). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using our website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [:analytics_processor_name](#processor-:analytics_processor_id). Data will be stored for the duration 26 months.',
+				p1: 'If you accept web analytics in the cookie notification, our website will forward log data to the service **:analytics_service** provided by :analytics_processor. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using our website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and :analytics_processor. Data will be stored for the duration 26 months.',
 				p2: 'Please note, that no data will be transferred to :analytics_service at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
 		},
 		maps: {
 			title: 'Interactive Maps',
 			content: {
-				p1: 'Our website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **:maps_service** provided by [:maps_processor_name](#processor-:maps_processor_id).',
+				p1: 'Our website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **:maps_service** provided by :maps_processor.',
 				p2: 'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to :maps_service and needed cookies will be set.',
 				p3: 'Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
@@ -586,7 +586,7 @@ var colonPrefixPluralEn = {
 		send_emails: {
 			title: 'E-Mail Submission',
 			content: {
-				p1: 'Our website includes forms, that can be used to send us an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **:send_emails_service** of our processor [:send_emails_processor_name](#processor-:send_emails_processor_id) into our mailbox.',
+				p1: 'Our website includes forms, that can be used to send us an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **:send_emails_service** of our processor :send_emails_processor into our mailbox.',
 			},
 		},
 	},
@@ -598,7 +598,7 @@ var colonPrefixPluralEn = {
 	},
 	data_purpose: {
 		title: 'Purpose',
-		webserver: 'Providing website and depending services',
+		webhosting: 'Providing website and depending services',
 		analytics: 'Processing of data for web analysing purposes',
 		maps: 'Displaying of interactive maps',
 		send_emails: 'Sending of e-mails (e.g. via contact form)',
@@ -637,7 +637,7 @@ var curlyWrapSingularDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen mich gerne unter [{privacy_email}](mailto:{privacy_email}) kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+			p2: 'Sie k\u00f6nnen mich gerne unter {privacy_email} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
 		},
 	},
 	security: {
@@ -709,30 +709,30 @@ var curlyWrapSingularDe = {
 	},
 	data_processing: {
 		title: 'Sammlung und Verwendung von Daten',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In meinem Fall handelt es sich um den Dienst **{webserver_service}** von [{webserver_processor_name}](#processor-{webserver_processor_id}). Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
+				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In meinem Fall werden diese Dienste von {webhosting_processor} zur Verf\u00fcgung gestellt. Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
 				ul1: {
 					li1: 'IP (Internet Protocol) Adresse Ihres Endger\u00e4tes,',
 					li2: 'Zeit, Datum und Dauer Ihres Besuchs,',
 					li3: 'besuchte Seiten,',
 					li4: 'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				},
-				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t meiner Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {webserver_processor_name}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
+				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t meiner Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {webhosting_processor}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
 			},
 		},
 		analytics: {
 			title: 'Web-Analyse',
 			content: {
-				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{analytics_service}** von [{analytics_processor_name}](#processor-{analytics_processor_id}) gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung meiner Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {analytics_processor_name}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
+				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{analytics_service}** von {analytics_processor} gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung meiner Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {analytics_processor}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
 				p2: 'Bitte beachten Sie, dass keinerlei Daten zu {analytics_service} transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
 		},
 		maps: {
 			title: 'Interaktive Karten',
 			content: {
-				p1: 'Meine Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{maps_service}** von [{maps_processor_name}](#processor-{maps_processor_id}) verwendet.',
+				p1: 'Meine Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{maps_service}** von {maps_processor} verwendet.',
 				p2: 'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch pers\u00f6nliche Daten (wie Nutzungs- und Standort-Daten) an {maps_service} gesendet sowie diverse Cookies gesetzt.',
 				p3: 'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit im Datenschutz-Hinweis zustimmen, der bei Ihrem ersten Aufruf einer interaktiven Karte erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
@@ -740,7 +740,7 @@ var curlyWrapSingularDe = {
 		send_emails: {
 			title: 'E-Mail-Versand',
 			content: {
-				p1: 'Meine Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um mir eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{send_emails_service}** vom Anbieter [{send_emails_processor_name}](#processor-{send_emails_processor_id}) in meine Mailbox zugestellt.',
+				p1: 'Meine Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um mir eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{send_emails_service}** vom Anbieter {send_emails_processor} in meine Mailbox zugestellt.',
 			},
 		},
 	},
@@ -752,7 +752,7 @@ var curlyWrapSingularDe = {
 	},
 	data_purpose: {
 		title: 'Zweck',
-		webserver: 'Hosten der Webseite und ben\u00f6tigter Dienste',
+		webhosting: 'Hosten der Webseite und ben\u00f6tigter Dienste',
 		analytics: 'Verarbeitung von Daten zur Web-Analyse',
 		maps: 'Darstellung interaktiver Karten',
 		send_emails: 'Senden von E-Mails (z.B. via Kontaktformularen)',
@@ -791,7 +791,7 @@ var curlyWrapSingularEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact me at [{privacy_email}](mailto:{privacy_email}).',
+			p2: 'If you have questions or requests regarding these rights, feel free to contact me at {privacy_email}.',
 		},
 	},
 	security: {
@@ -862,30 +862,30 @@ var curlyWrapSingularEn = {
 	},
 	data_processing: {
 		title: 'Data Collection, Processing and Usage',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In my case these are provided by [{webserver_processor_name}](#processor-{webserver_processor_id}) using the service **{webserver_service}**. The transmitted information can include the following types of data:',
+				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In my case these are provided by {webhosting_processor}. The transmitted information can include the following types of data:',
 				ul1: {
 					li1: "your device's IP (Internet Protocol) address,",
 					li2: 'time, date and duration of your visit,',
 					li3: 'visited pages,',
 					li4: 'type, version and language of your browser and operating system.',
 				},
-				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and [{webserver_processor_name}](#processor-{webserver_processor_id}). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and {webhosting_processor}. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			},
 		},
 		analytics: {
 			title: 'Web Analytics',
 			content: {
-				p1: 'If you accept web analytics in the cookie notification, my website will forward log data to the service **{analytics_service}** provided by [{analytics_processor_name}](#processor-{analytics_processor_id}). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [{analytics_processor_name}](#processor-{analytics_processor_id}). Data will be stored for the duration 26 months.',
+				p1: 'If you accept web analytics in the cookie notification, my website will forward log data to the service **{analytics_service}** provided by {analytics_processor}. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and {analytics_processor}. Data will be stored for the duration 26 months.',
 				p2: 'Please note, that no data will be transferred to {analytics_service} at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
 		},
 		maps: {
 			title: 'Interactive Maps',
 			content: {
-				p1: 'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{maps_service}** provided by [{maps_processor_name}](#processor-{maps_processor_id}).',
+				p1: 'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{maps_service}** provided by {maps_processor}.',
 				p2: 'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to {maps_service} and needed cookies will be set.',
 				p3: 'Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
@@ -893,7 +893,7 @@ var curlyWrapSingularEn = {
 		send_emails: {
 			title: 'E-Mail Submission',
 			content: {
-				p1: 'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{send_emails_service}** of my processor [{send_emails_processor_name}](#processor-{send_emails_processor_id}) into my mailbox.',
+				p1: 'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{send_emails_service}** of my processor {send_emails_processor} into my mailbox.',
 			},
 		},
 	},
@@ -905,7 +905,7 @@ var curlyWrapSingularEn = {
 	},
 	data_purpose: {
 		title: 'Purpose',
-		webserver: 'Providing website and depending services',
+		webhosting: 'Providing website and depending services',
 		analytics: 'Processing of data for web analysing purposes',
 		maps: 'Displaying of interactive maps',
 		send_emails: 'Sending of e-mails (e.g. via contact form)',
@@ -944,7 +944,7 @@ var curlyWrapPluralDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen uns gerne unter [{privacy_email}](mailto:{privacy_email}) kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+			p2: 'Sie k\u00f6nnen uns gerne unter {privacy_email} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
 		},
 	},
 	security: {
@@ -1016,30 +1016,30 @@ var curlyWrapPluralDe = {
 	},
 	data_processing: {
 		title: 'Sammlung und Verwendung von Daten',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In unseren Fall handelt es sich um den Dienst **{webserver_service}** von [{webserver_processor_name}](#processor-{webserver_processor_id}). Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
+				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In unseren Fall werden diese Dienste von {webhosting_processor} zur Verf\u00fcgung gestellt. Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
 				ul1: {
 					li1: 'IP (Internet Protocol) Adresse Ihres Endger\u00e4tes,',
 					li2: 'Zeit, Datum und Dauer Ihres Besuchs,',
 					li3: 'besuchte Seiten,',
 					li4: 'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				},
-				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t unserer Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {webserver_processor_name}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
+				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t unserer Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {webhosting_processor}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
 			},
 		},
 		analytics: {
 			title: 'Web-Analyse',
 			content: {
-				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{analytics_service}** von [{analytics_processor_name}](#processor-{analytics_processor_id}) gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung unserer Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {analytics_processor_name}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
+				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{analytics_service}** von {analytics_processor} gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung unserer Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {analytics_processor}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
 				p2: 'Bitte beachten Sie, dass keinerlei Daten zu {analytics_service} transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
 		},
 		maps: {
 			title: 'Interaktive Karten',
 			content: {
-				p1: 'Unsere Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{maps_service}** von [{maps_processor_name}](#processor-{maps_processor_id}) verwendet.',
+				p1: 'Unsere Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{maps_service}** von {maps_processor} verwendet.',
 				p2: 'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch pers\u00f6nliche Daten (wie Nutzungs- und Standort-Daten) an {maps_service} gesendet sowie diverse Cookies gesetzt.',
 				p3: 'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit im Datenschutz-Hinweis zustimmen, der bei Ihrem ersten Aufruf einer interaktiven Karte erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
@@ -1047,7 +1047,7 @@ var curlyWrapPluralDe = {
 		send_emails: {
 			title: 'E-Mail-Versand',
 			content: {
-				p1: 'Unsere Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um uns eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{send_emails_service}** vom Anbieter [{send_emails_processor_name}](#processor-{send_emails_processor_id}) in unsere Mailbox zugestellt.',
+				p1: 'Unsere Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um uns eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{send_emails_service}** vom Anbieter {send_emails_processor} in unsere Mailbox zugestellt.',
 			},
 		},
 	},
@@ -1059,7 +1059,7 @@ var curlyWrapPluralDe = {
 	},
 	data_purpose: {
 		title: 'Zweck',
-		webserver: 'Hosten der Webseite und ben\u00f6tigter Dienste',
+		webhosting: 'Hosten der Webseite und ben\u00f6tigter Dienste',
 		analytics: 'Verarbeitung von Daten zur Web-Analyse',
 		maps: 'Darstellung interaktiver Karten',
 		send_emails: 'Senden von E-Mails (z.B. via Kontaktformularen)',
@@ -1098,7 +1098,7 @@ var curlyWrapPluralEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact us at [{privacy_email}](mailto:{privacy_email}).',
+			p2: 'If you have questions or requests regarding these rights, feel free to contact us at {privacy_email}.',
 		},
 	},
 	security: {
@@ -1169,30 +1169,30 @@ var curlyWrapPluralEn = {
 	},
 	data_processing: {
 		title: 'Data Collection, Processing and Usage',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In our case these are provided by [{webserver_processor_name}](#processor-{webserver_processor_id}) using the service **{webserver_service}**. The transmitted information can include the following types of data:',
+				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In our case these are provided by {webhosting_processor}. The transmitted information can include the following types of data:',
 				ul1: {
 					li1: "your device's IP (Internet Protocol) address,",
 					li2: 'time, date and duration of your visit,',
 					li3: 'visited pages,',
 					li4: 'type, version and language of your browser and operating system.',
 				},
-				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of our website and enables us to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [{webserver_processor_name}](#processor-{webserver_processor_id}). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of our website and enables us to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and {webhosting_processor}. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			},
 		},
 		analytics: {
 			title: 'Web Analytics',
 			content: {
-				p1: 'If you accept web analytics in the cookie notification, our website will forward log data to the service **{analytics_service}** provided by [{analytics_processor_name}](#processor-{analytics_processor_id}). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using our website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [{analytics_processor_name}](#processor-{analytics_processor_id}). Data will be stored for the duration 26 months.',
+				p1: 'If you accept web analytics in the cookie notification, our website will forward log data to the service **{analytics_service}** provided by {analytics_processor}. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using our website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and {analytics_processor}. Data will be stored for the duration 26 months.',
 				p2: 'Please note, that no data will be transferred to {analytics_service} at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
 		},
 		maps: {
 			title: 'Interactive Maps',
 			content: {
-				p1: 'Our website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{maps_service}** provided by [{maps_processor_name}](#processor-{maps_processor_id}).',
+				p1: 'Our website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{maps_service}** provided by {maps_processor}.',
 				p2: 'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to {maps_service} and needed cookies will be set.',
 				p3: 'Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
@@ -1200,7 +1200,7 @@ var curlyWrapPluralEn = {
 		send_emails: {
 			title: 'E-Mail Submission',
 			content: {
-				p1: 'Our website includes forms, that can be used to send us an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{send_emails_service}** of our processor [{send_emails_processor_name}](#processor-{send_emails_processor_id}) into our mailbox.',
+				p1: 'Our website includes forms, that can be used to send us an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{send_emails_service}** of our processor {send_emails_processor} into our mailbox.',
 			},
 		},
 	},
@@ -1212,7 +1212,7 @@ var curlyWrapPluralEn = {
 	},
 	data_purpose: {
 		title: 'Purpose',
-		webserver: 'Providing website and depending services',
+		webhosting: 'Providing website and depending services',
 		analytics: 'Processing of data for web analysing purposes',
 		maps: 'Displaying of interactive maps',
 		send_emails: 'Sending of e-mails (e.g. via contact form)',
@@ -1251,7 +1251,7 @@ var doubleCurlyWrapSingularDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen mich gerne unter [{{privacy_email}}](mailto:{{privacy_email}}) kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+			p2: 'Sie k\u00f6nnen mich gerne unter {{privacy_email}} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
 		},
 	},
 	security: {
@@ -1323,30 +1323,30 @@ var doubleCurlyWrapSingularDe = {
 	},
 	data_processing: {
 		title: 'Sammlung und Verwendung von Daten',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In meinem Fall handelt es sich um den Dienst **{{webserver_service}}** von [{{webserver_processor_name}}](#processor-{{webserver_processor_id}}). Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
+				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In meinem Fall werden diese Dienste von {{webhosting_processor}} zur Verf\u00fcgung gestellt. Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
 				ul1: {
 					li1: 'IP (Internet Protocol) Adresse Ihres Endger\u00e4tes,',
 					li2: 'Zeit, Datum und Dauer Ihres Besuchs,',
 					li3: 'besuchte Seiten,',
 					li4: 'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				},
-				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t meiner Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {{webserver_processor_name}}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
+				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t meiner Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {{webhosting_processor}}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
 			},
 		},
 		analytics: {
 			title: 'Web-Analyse',
 			content: {
-				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{{analytics_service}}** von [{{analytics_processor_name}}](#processor-{{analytics_processor_id}}) gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung meiner Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {{analytics_processor_name}}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
+				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{{analytics_service}}** von {{analytics_processor}} gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung meiner Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen mir und {{analytics_processor}}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
 				p2: 'Bitte beachten Sie, dass keinerlei Daten zu {{analytics_service}} transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
 		},
 		maps: {
 			title: 'Interaktive Karten',
 			content: {
-				p1: 'Meine Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{{maps_service}}** von [{{maps_processor_name}}](#processor-{{maps_processor_id}}) verwendet.',
+				p1: 'Meine Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{{maps_service}}** von {{maps_processor}} verwendet.',
 				p2: 'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch pers\u00f6nliche Daten (wie Nutzungs- und Standort-Daten) an {{maps_service}} gesendet sowie diverse Cookies gesetzt.',
 				p3: 'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit im Datenschutz-Hinweis zustimmen, der bei Ihrem ersten Aufruf einer interaktiven Karte erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
@@ -1354,7 +1354,7 @@ var doubleCurlyWrapSingularDe = {
 		send_emails: {
 			title: 'E-Mail-Versand',
 			content: {
-				p1: 'Meine Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um mir eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{{send_emails_service}}** vom Anbieter [{{send_emails_processor_name}}](#processor-{{send_emails_processor_id}}) in meine Mailbox zugestellt.',
+				p1: 'Meine Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um mir eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{{send_emails_service}}** vom Anbieter {{send_emails_processor}} in meine Mailbox zugestellt.',
 			},
 		},
 	},
@@ -1366,7 +1366,7 @@ var doubleCurlyWrapSingularDe = {
 	},
 	data_purpose: {
 		title: 'Zweck',
-		webserver: 'Hosten der Webseite und ben\u00f6tigter Dienste',
+		webhosting: 'Hosten der Webseite und ben\u00f6tigter Dienste',
 		analytics: 'Verarbeitung von Daten zur Web-Analyse',
 		maps: 'Darstellung interaktiver Karten',
 		send_emails: 'Senden von E-Mails (z.B. via Kontaktformularen)',
@@ -1405,7 +1405,7 @@ var doubleCurlyWrapSingularEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact me at [{{privacy_email}}](mailto:{{privacy_email}}).',
+			p2: 'If you have questions or requests regarding these rights, feel free to contact me at {{privacy_email}}.',
 		},
 	},
 	security: {
@@ -1476,30 +1476,30 @@ var doubleCurlyWrapSingularEn = {
 	},
 	data_processing: {
 		title: 'Data Collection, Processing and Usage',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In my case these are provided by [{{webserver_processor_name}}](#processor-{{webserver_processor_id}}) using the service **{{webserver_service}}**. The transmitted information can include the following types of data:',
+				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In my case these are provided by {{webhosting_processor}}. The transmitted information can include the following types of data:',
 				ul1: {
 					li1: "your device's IP (Internet Protocol) address,",
 					li2: 'time, date and duration of your visit,',
 					li3: 'visited pages,',
 					li4: 'type, version and language of your browser and operating system.',
 				},
-				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and [{{webserver_processor_name}}](#processor-{{webserver_processor_id}}). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and {{webhosting_processor}}. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			},
 		},
 		analytics: {
 			title: 'Web Analytics',
 			content: {
-				p1: 'If you accept web analytics in the cookie notification, my website will forward log data to the service **{{analytics_service}}** provided by [{{analytics_processor_name}}](#processor-{{analytics_processor_id}}). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [{{analytics_processor_name}}](#processor-{{analytics_processor_id}}). Data will be stored for the duration 26 months.',
+				p1: 'If you accept web analytics in the cookie notification, my website will forward log data to the service **{{analytics_service}}** provided by {{analytics_processor}}. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and {{analytics_processor}}. Data will be stored for the duration 26 months.',
 				p2: 'Please note, that no data will be transferred to {{analytics_service}} at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
 		},
 		maps: {
 			title: 'Interactive Maps',
 			content: {
-				p1: 'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{{maps_service}}** provided by [{{maps_processor_name}}](#processor-{{maps_processor_id}}).',
+				p1: 'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{{maps_service}}** provided by {{maps_processor}}.',
 				p2: 'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to {{maps_service}} and needed cookies will be set.',
 				p3: 'Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
@@ -1507,7 +1507,7 @@ var doubleCurlyWrapSingularEn = {
 		send_emails: {
 			title: 'E-Mail Submission',
 			content: {
-				p1: 'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{{send_emails_service}}** of my processor [{{send_emails_processor_name}}](#processor-{{send_emails_processor_id}}) into my mailbox.',
+				p1: 'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{{send_emails_service}}** of my processor {{send_emails_processor}} into my mailbox.',
 			},
 		},
 	},
@@ -1519,7 +1519,7 @@ var doubleCurlyWrapSingularEn = {
 	},
 	data_purpose: {
 		title: 'Purpose',
-		webserver: 'Providing website and depending services',
+		webhosting: 'Providing website and depending services',
 		analytics: 'Processing of data for web analysing purposes',
 		maps: 'Displaying of interactive maps',
 		send_emails: 'Sending of e-mails (e.g. via contact form)',
@@ -1558,7 +1558,7 @@ var doubleCurlyWrapPluralDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen uns gerne unter [{{privacy_email}}](mailto:{{privacy_email}}) kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+			p2: 'Sie k\u00f6nnen uns gerne unter {{privacy_email}} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
 		},
 	},
 	security: {
@@ -1630,30 +1630,30 @@ var doubleCurlyWrapPluralDe = {
 	},
 	data_processing: {
 		title: 'Sammlung und Verwendung von Daten',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In unseren Fall handelt es sich um den Dienst **{{webserver_service}}** von [{{webserver_processor_name}}](#processor-{{webserver_processor_id}}). Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
+				p1: 'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In unseren Fall werden diese Dienste von {{webhosting_processor}} zur Verf\u00fcgung gestellt. Dabei k\u00f6nnen folgende Arten von Daten \u00fcbertragen werden:',
 				ul1: {
 					li1: 'IP (Internet Protocol) Adresse Ihres Endger\u00e4tes,',
 					li2: 'Zeit, Datum und Dauer Ihres Besuchs,',
 					li3: 'besuchte Seiten,',
 					li4: 'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				},
-				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t unserer Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {{webserver_processor_name}}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
+				p2: 'Diese Daten werden automatisch \u00fcbertragen und geloggt, um die Erreichbarkeit, Funktionalit\u00e4t, Sicherheit und Stabilit\u00e4t unserer Webseite zu gew\u00e4hrleisten. Die Daten bleiben gespeichert bis die Logdatei gel\u00f6scht wird. Die gesammelten Daten sind technisch notwendig f\u00fcr den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {{webhosting_processor}}. Sammlung und Verarbeitung dieser Daten erfolgt in \u00dcbereinstimmung mit Artikel 6 (1) der DSGVO.',
 			},
 		},
 		analytics: {
 			title: 'Web-Analyse',
 			content: {
-				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{{analytics_service}}** von [{{analytics_processor_name}}](#processor-{{analytics_processor_id}}) gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung unserer Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {{analytics_processor_name}}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
+				p1: 'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{{analytics_service}}** von {{analytics_processor}} gesendet. Dieser Dienst sammelt Daten \u00fcber die Verwendung der Webseite f\u00fcr statistische Zwecke und um die Benutzerf\u00fchrung unserer Seite zu verbessern. S\u00e4mtliche gesammelten Daten werden pseudonymisiert (durch L\u00f6schen eines Teils Ihrer IP-Adresse) und k\u00f6nnen sowohl in der Europ\u00e4ischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {{analytics_processor}}. Die Daten bleiben f\u00fcr die Dauer von 26 Monaten gespeichert.',
 				p2: 'Bitte beachten Sie, dass keinerlei Daten zu {{analytics_service}} transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
 		},
 		maps: {
 			title: 'Interaktive Karten',
 			content: {
-				p1: 'Unsere Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{{maps_service}}** von [{{maps_processor_name}}](#processor-{{maps_processor_id}}) verwendet.',
+				p1: 'Unsere Webseite bietet auf Anforderung die Funktionalit\u00e4t zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtspl\u00e4nen). Dabei wird der Dienst **{{maps_service}}** von {{maps_processor}} verwendet.',
 				p2: 'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch pers\u00f6nliche Daten (wie Nutzungs- und Standort-Daten) an {{maps_service}} gesendet sowie diverse Cookies gesetzt.',
 				p3: 'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit im Datenschutz-Hinweis zustimmen, der bei Ihrem ersten Aufruf einer interaktiven Karte erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in \u00dcbereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			},
@@ -1661,7 +1661,7 @@ var doubleCurlyWrapPluralDe = {
 		send_emails: {
 			title: 'E-Mail-Versand',
 			content: {
-				p1: 'Unsere Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um uns eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{{send_emails_service}}** vom Anbieter [{{send_emails_processor_name}}](#processor-{{send_emails_processor_id}}) in unsere Mailbox zugestellt.',
+				p1: 'Unsere Webseite verf\u00fcgt \u00fcber Formulare, die verwendet werden k\u00f6nnen, um uns eine E-Mail zu senden. Im Formular k\u00f6nnen Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese \u00fcber den Dienst **{{send_emails_service}}** vom Anbieter {{send_emails_processor}} in unsere Mailbox zugestellt.',
 			},
 		},
 	},
@@ -1673,7 +1673,7 @@ var doubleCurlyWrapPluralDe = {
 	},
 	data_purpose: {
 		title: 'Zweck',
-		webserver: 'Hosten der Webseite und ben\u00f6tigter Dienste',
+		webhosting: 'Hosten der Webseite und ben\u00f6tigter Dienste',
 		analytics: 'Verarbeitung von Daten zur Web-Analyse',
 		maps: 'Darstellung interaktiver Karten',
 		send_emails: 'Senden von E-Mails (z.B. via Kontaktformularen)',
@@ -1712,7 +1712,7 @@ var doubleCurlyWrapPluralEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact us at [{{privacy_email}}](mailto:{{privacy_email}}).',
+			p2: 'If you have questions or requests regarding these rights, feel free to contact us at {{privacy_email}}.',
 		},
 	},
 	security: {
@@ -1783,30 +1783,30 @@ var doubleCurlyWrapPluralEn = {
 	},
 	data_processing: {
 		title: 'Data Collection, Processing and Usage',
-		webserver: {
-			title: 'Webserver',
+		webhosting: {
+			title: 'Webhosting',
 			content: {
-				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In our case these are provided by [{{webserver_processor_name}}](#processor-{{webserver_processor_id}}) using the service **{{webserver_service}}**. The transmitted information can include the following types of data:',
+				p1: 'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In our case these are provided by {{webhosting_processor}}. The transmitted information can include the following types of data:',
 				ul1: {
 					li1: "your device's IP (Internet Protocol) address,",
 					li2: 'time, date and duration of your visit,',
 					li3: 'visited pages,',
 					li4: 'type, version and language of your browser and operating system.',
 				},
-				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of our website and enables us to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [{{webserver_processor_name}}](#processor-{{webserver_processor_id}}). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+				p2: 'This data is transmitted and logged automatically to ensure the connectivity and functionality of our website and enables us to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and {{webhosting_processor}}. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			},
 		},
 		analytics: {
 			title: 'Web Analytics',
 			content: {
-				p1: 'If you accept web analytics in the cookie notification, our website will forward log data to the service **{{analytics_service}}** provided by [{{analytics_processor_name}}](#processor-{{analytics_processor_id}}). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using our website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [{{analytics_processor_name}}](#processor-{{analytics_processor_id}}). Data will be stored for the duration 26 months.',
+				p1: 'If you accept web analytics in the cookie notification, our website will forward log data to the service **{{analytics_service}}** provided by {{analytics_processor}}. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using our website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and {{analytics_processor}}. Data will be stored for the duration 26 months.',
 				p2: 'Please note, that no data will be transferred to {{analytics_service}} at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
 		},
 		maps: {
 			title: 'Interactive Maps',
 			content: {
-				p1: 'Our website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{{maps_service}}** provided by [{{maps_processor_name}}](#processor-{{maps_processor_id}}).',
+				p1: 'Our website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{{maps_service}}** provided by {{maps_processor}}.',
 				p2: 'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to {{maps_service}} and needed cookies will be set.',
 				p3: 'Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			},
@@ -1814,7 +1814,7 @@ var doubleCurlyWrapPluralEn = {
 		send_emails: {
 			title: 'E-Mail Submission',
 			content: {
-				p1: 'Our website includes forms, that can be used to send us an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{{send_emails_service}}** of our processor [{{send_emails_processor_name}}](#processor-{{send_emails_processor_id}}) into our mailbox.',
+				p1: 'Our website includes forms, that can be used to send us an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{{send_emails_service}}** of our processor {{send_emails_processor}} into our mailbox.',
 			},
 		},
 	},
@@ -1826,7 +1826,7 @@ var doubleCurlyWrapPluralEn = {
 	},
 	data_purpose: {
 		title: 'Purpose',
-		webserver: 'Providing website and depending services',
+		webhosting: 'Providing website and depending services',
 		analytics: 'Processing of data for web analysing purposes',
 		maps: 'Displaying of interactive maps',
 		send_emails: 'Sending of e-mails (e.g. via contact form)',
@@ -1874,6 +1874,11 @@ var processors = {
 		name: 'Stripe Inc.',
 		address: '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
 		privacy_policy: 'https://stripe.com/privacy',
+	},
+	storyblok: {
+		name: 'Storyblok GmbH',
+		address: 'Peter-Behrens-Platz 2, A-4020 Linz, Austria, EU',
+		privacy_policy: 'https://www.storyblok.com/legal/privacy-policy',
 	},
 }
 

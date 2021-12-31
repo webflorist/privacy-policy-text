@@ -50,11 +50,9 @@ return [
 			'p2' =>
 				'Sie können ' .
 				($s ? 'mich' : 'uns') .
-				' gerne unter [' .
+				' gerne unter ' .
 				$i('privacy_email') .
-				'](mailto:' .
-				$i('privacy_email') .
-				') kontaktieren, wenn Sie Fragen oder Wünsche in Bezug auf diese Rechte haben.',
+				' kontaktieren, wenn Sie Fragen oder Wünsche in Bezug auf diese Rechte haben.',
 		],
 	],
 
@@ -171,20 +169,16 @@ return [
 	'data_processing' => [
 		'title' => 'Sammlung und Verwendung von Daten',
 
-		// Webserver
-		'webserver' => [
-			'title' => 'Webserver',
+		// Webhosting
+		'webhosting' => [
+			'title' => 'Webhosting',
 			'content' => [
 				'p1' =>
-					'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird. In ' .
+					'Beim Besuch einer Webseite sendet Ihr Web-Browser automatisch Information zum Server und der Infrastruktur, auf dem diese betrieben wird, um die Webseite sowie damit verbundene Ressourcen (wie z.B. Bilder oder Schriftarten) herunterzuladen. In ' .
 					($s ? 'meinem' : 'unseren') .
-					' Fall handelt es sich um den Dienst **' .
-					$i('webserver_service') .
-					'** von [' .
-					$i('webserver_processor_name') .
-					'](#processor-' .
-					$i('webserver_processor_id') .
-					'). Dabei können folgende Arten von Daten übertragen werden:',
+					' Fall werden diese Dienste von ' .
+					$i('webhosting_processor') .
+					' zur Verfügung gestellt. Dabei können folgende Arten von Daten übertragen werden:',
 				'ul1' => [
 					'li1' => 'IP (Internet Protocol) Adresse Ihres Endgerätes,',
 					'li2' => 'Zeit, Datum und Dauer Ihres Besuchs,',
@@ -198,7 +192,7 @@ return [
 					' Webseite zu gewährleisten. Die Daten bleiben gespeichert bis die Logdatei gelöscht wird. Die gesammelten Daten sind technisch notwendig für den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen ' .
 					($s ? 'mir' : 'uns') .
 					' und ' .
-					$i('webserver_processor_name') .
+					$i('webhosting_processor') .
 					'. Sammlung und Verarbeitung dieser Daten erfolgt in Übereinstimmung mit Artikel 6 (1) der DSGVO.',
 			],
 		],
@@ -210,16 +204,14 @@ return [
 				'p1' =>
 					'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **' .
 					$i('analytics_service') .
-					'** von [' .
-					$i('analytics_processor_name') .
-					'](#processor-' .
-					$i('analytics_processor_id') .
-					') gesendet. Dieser Dienst sammelt Daten über die Verwendung der Webseite für statistische Zwecke und um die Benutzerführung ' .
+					'** von ' .
+					$i('analytics_processor') .
+					' gesendet. Dieser Dienst sammelt Daten über die Verwendung der Webseite für statistische Zwecke und um die Benutzerführung ' .
 					($s ? 'meiner' : 'unserer') .
 					' Seite zu verbessern. Sämtliche gesammelten Daten werden pseudonymisiert (durch Löschen eines Teils Ihrer IP-Adresse) und können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen ' .
 					($s ? 'mir' : 'uns') .
 					' und ' .
-					$i('analytics_processor_name') .
+					$i('analytics_processor') .
 					'. Die Daten bleiben für die Dauer von 26 Monaten gespeichert.',
 				'p2' =>
 					'Bitte beachten Sie, dass keinerlei Daten zu ' .
@@ -236,11 +228,9 @@ return [
 					($s ? 'Meine' : 'Unsere') .
 					' Webseite bietet auf Anforderung die Funktionalität zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtsplänen). Dabei wird der Dienst **' .
 					$i('maps_service') .
-					'** von [' .
-					$i('maps_processor_name') .
-					'](#processor-' .
-					$i('maps_processor_id') .
-					') verwendet.',
+					'** von ' .
+					$i('maps_processor') .
+					' verwendet.',
 				'p2' =>
 					'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch persönliche Daten (wie Nutzungs- und Standort-Daten) an ' .
 					$i('maps_service') .
@@ -260,11 +250,9 @@ return [
 					($s ? 'mir' : 'uns') .
 					' eine E-Mail zu senden. Im Formular können Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese über den Dienst **' .
 					$i('send_emails_service') .
-					'** vom Anbieter [' .
-					$i('send_emails_processor_name') .
-					'](#processor-' .
-					$i('send_emails_processor_id') .
-					') in ' .
+					'** vom Anbieter ' .
+					$i('send_emails_processor') .
+					' in ' .
 					($s ? 'meine' : 'unsere') .
 					' Mailbox zugestellt.',
 			],
@@ -290,7 +278,7 @@ return [
 	/* List of data processing purposes */
 	'data_purpose' => [
 		'title' => 'Zweck',
-		'webserver' => 'Hosten der Webseite und benötigter Dienste',
+		'webhosting' => 'Hosten der Webseite und benötigter Dienste',
 		'analytics' => 'Verarbeitung von Daten zur Web-Analyse',
 		'maps' => 'Darstellung interaktiver Karten',
 		'send_emails' => 'Senden von E-Mails (z.B. via Kontaktformularen)',

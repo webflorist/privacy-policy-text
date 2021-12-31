@@ -30,7 +30,7 @@ return [
 					'**Right to portability** of your personal information over to you.',
 			],
 			'p2' =>
-				'If you have questions or requests regarding these rights, feel free to contact me at [{privacy_email}](mailto:{privacy_email}).',
+				'If you have questions or requests regarding these rights, feel free to contact me at {privacy_email}.',
 		],
 	],
 	'security' => [
@@ -111,11 +111,11 @@ return [
 	],
 	'data_processing' => [
 		'title' => 'Data Collection, Processing and Usage',
-		'webserver' => [
-			'title' => 'Webserver',
+		'webhosting' => [
+			'title' => 'Webhosting',
 			'content' => [
 				'p1' =>
-					'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In my case these are provided by [{webserver_processor_name}](#processor-{webserver_processor_id}) using the service **{webserver_service}**. The transmitted information can include the following types of data:',
+					'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In my case these are provided by {webhosting_processor}. The transmitted information can include the following types of data:',
 				'ul1' => [
 					'li1' => 'your device\'s IP (Internet Protocol) address,',
 					'li2' => 'time, date and duration of your visit,',
@@ -124,14 +124,14 @@ return [
 						'type, version and language of your browser and operating system.',
 				],
 				'p2' =>
-					'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and [{webserver_processor_name}](#processor-{webserver_processor_id}). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+					'This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between me and {webhosting_processor}. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			],
 		],
 		'analytics' => [
 			'title' => 'Web Analytics',
 			'content' => [
 				'p1' =>
-					'If you accept web analytics in the cookie notification, my website will forward log data to the service **{analytics_service}** provided by [{analytics_processor_name}](#processor-{analytics_processor_id}). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [{analytics_processor_name}](#processor-{analytics_processor_id}). Data will be stored for the duration 26 months.',
+					'If you accept web analytics in the cookie notification, my website will forward log data to the service **{analytics_service}** provided by {analytics_processor}. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and {analytics_processor}. Data will be stored for the duration 26 months.',
 				'p2' =>
 					'Please note, that no data will be transferred to {analytics_service} at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
 			],
@@ -140,7 +140,7 @@ return [
 			'title' => 'Interactive Maps',
 			'content' => [
 				'p1' =>
-					'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{maps_service}** provided by [{maps_processor_name}](#processor-{maps_processor_id}).',
+					'My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{maps_service}** provided by {maps_processor}.',
 				'p2' =>
 					'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to {maps_service} and needed cookies will be set.',
 				'p3' =>
@@ -151,7 +151,7 @@ return [
 			'title' => 'E-Mail Submission',
 			'content' => [
 				'p1' =>
-					'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{send_emails_service}** of my processor [{send_emails_processor_name}](#processor-{send_emails_processor_id}) into my mailbox.',
+					'My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{send_emails_service}** of my processor {send_emails_processor} into my mailbox.',
 			],
 		],
 	],
@@ -164,7 +164,7 @@ return [
 	],
 	'data_purpose' => [
 		'title' => 'Purpose',
-		'webserver' => 'Providing website and depending services',
+		'webhosting' => 'Providing website and depending services',
 		'analytics' => 'Processing of data for web analysing purposes',
 		'maps' => 'Displaying of interactive maps',
 		'send_emails' => 'Sending of e-mails (e.g. via contact form)',

@@ -49,11 +49,9 @@ return [
 			'p2' =>
 				'If you have questions or requests regarding these rights, feel free to contact ' .
 				($s ? 'me' : 'us') .
-				' at [' .
+				' at ' .
 				$i('privacy_email') .
-				'](mailto:' .
-				$i('privacy_email') .
-				').',
+				'.',
 		],
 	],
 
@@ -169,20 +167,16 @@ return [
 	'data_processing' => [
 		'title' => 'Data Collection, Processing and Usage',
 
-		// Webserver
-		'webserver' => [
-			'title' => 'Webserver',
+		// Webhosting
+		'webhosting' => [
+			'title' => 'Webhosting',
 			'content' => [
 				'p1' =>
-					'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on. In ' .
+					'When visiting any website, your browser is automatically transmitting information to the server and infrastructure it is hosted on, to download the website and any additionally required resources (such as e.g. images or fonts). In ' .
 					($s ? 'my' : 'our') .
-					' case these are provided by [' .
-					$i('webserver_processor_name') .
-					'](#processor-' .
-					$i('webserver_processor_id') .
-					') using the service **' .
-					$i('webserver_service') .
-					'**. The transmitted information can include the following types of data:',
+					' case these are provided by ' .
+					$i('webhosting_processor') .
+					'. The transmitted information can include the following types of data:',
 				'ul1' => [
 					'li1' => 'your device\'s IP (Internet Protocol) address,',
 					'li2' => 'time, date and duration of your visit,',
@@ -197,11 +191,9 @@ return [
 					($s ? 'me' : 'us') .
 					' to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between ' .
 					($s ? 'me' : 'us') .
-					' and [' .
-					$i('webserver_processor_name') .
-					'](#processor-' .
-					$i('webserver_processor_id') .
-					'). Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
+					' and ' .
+					$i('webhosting_processor') .
+					'. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR.',
 			],
 		],
 
@@ -214,17 +206,13 @@ return [
 					($s ? 'my' : 'our') .
 					' website will forward log data to the service **' .
 					$i('analytics_service') .
-					'** provided by [' .
-					$i('analytics_processor_name') .
-					'](#processor-' .
-					$i('analytics_processor_id') .
-					'). This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using ' .
+					'** provided by ' .
+					$i('analytics_processor') .
+					'. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using ' .
 					($s ? 'my' : 'our') .
-					' website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and [' .
-					$i('analytics_processor_name') .
-					'](#processor-' .
-					$i('analytics_processor_id') .
-					'). Data will be stored for the duration 26 months.',
+					' website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and ' .
+					$i('analytics_processor') .
+					'. Data will be stored for the duration 26 months.',
 				'p2' =>
 					'Please note, that no data will be transferred to ' .
 					$i('analytics_service') .
@@ -240,11 +228,9 @@ return [
 					($s ? 'My' : 'Our') .
 					' website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **' .
 					$i('maps_service') .
-					'** provided by [' .
-					$i('maps_processor_name') .
-					'](#processor-' .
-					$i('maps_processor_id') .
-					').',
+					'** provided by ' .
+					$i('maps_processor') .
+					'.',
 				'p2' =>
 					'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to ' .
 					$i('maps_service') .
@@ -266,11 +252,9 @@ return [
 					$i('send_emails_service') .
 					'** of ' .
 					($s ? 'my' : 'our') .
-					' processor [' .
-					$i('send_emails_processor_name') .
-					'](#processor-' .
-					$i('send_emails_processor_id') .
-					') into ' .
+					' processor ' .
+					$i('send_emails_processor') .
+					' into ' .
 					($s ? 'my' : 'our') .
 					' mailbox.',
 			],
@@ -298,7 +282,7 @@ return [
 	/* List of data processing purposes */
 	'data_purpose' => [
 		'title' => 'Purpose',
-		'webserver' => 'Providing website and depending services',
+		'webhosting' => 'Providing website and depending services',
 		'analytics' => 'Processing of data for web analysing purposes',
 		'maps' => 'Displaying of interactive maps',
 		'send_emails' => 'Sending of e-mails (e.g. via contact form)',
