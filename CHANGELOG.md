@@ -1,5 +1,10 @@
 # Release Notes
 
+## [v1.3.0 (2022-01-02)](https://github.com/webflorist/privacy-policy-text/compare/v1.2.1...v1.3.0)
+
+- ADD data controller section and REMOVE privacy policy email (4bdc308)
+- ADD lintfix to build command (ff3af9c)
+
 ## [v1.2.1 (2021-12-31)](https://github.com/webflorist/privacy-policy-text/compare/v1.2.0...v1.2.1)
 
 - ADD default export (3d28236)
