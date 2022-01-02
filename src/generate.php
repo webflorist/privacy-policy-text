@@ -33,9 +33,11 @@ class FileGenerator
 			foreach (self::FORMAT as $format) {
 				foreach (self::INTERPOLATION as $interpolation) {
 					foreach (self::NUMERUS as $numerus) {
-						$outputFolder = $this->distDir . "/$format/$interpolation/$numerus";
+						$outputFolder =
+							$this->distDir .
+							"/$format/$interpolation/$numerus/$locale";
 						mkdir($outputFolder, 0777, true);
-						$outputFilename = "$locale.$format";
+						$outputFilename = "privacy-policy.$format";
 						$outputFile = "$outputFolder/$outputFilename";
 						$this->renderFile(
 							$srcFile,
@@ -91,7 +93,8 @@ class FileGenerator
 
 		if ($format === 'js') {
 			$jsonCode =
-				'export default ' . json_encode($translationData, JSON_PRETTY_PRINT);
+				'export default ' .
+				json_encode($translationData, JSON_PRETTY_PRINT);
 			file_put_contents($outputFile, $jsonCode);
 		}
 	}

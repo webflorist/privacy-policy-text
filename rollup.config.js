@@ -1,6 +1,6 @@
 export default [
 	{
-		input: 'dist/module.js',
+		input: 'src/js/module.js',
 		output: [
 			{
 				format: 'cjs',

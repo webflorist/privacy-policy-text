@@ -86,7 +86,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 				hide_alert:
 					'Ausblenden des Cookie-Hinweises, der beim ersten Besuch der Webseite erscheint',
 				maps: 'Klick auf "OK" bei der Einverst\u00e4ndniserkl\u00e4rung zur Verwendung von interaktiven Karten',
-				accept_cookies: 'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
+				accept_cookies:
+					'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
 			},
 			duration: {
 				title: 'Dauer',
@@ -242,7 +243,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 			written_on: {
 				title: 'Written on',
 				every_visit: 'Every visit',
-				hide_alert: 'Hiding the cookie dialog popping up on your first visit.',
+				hide_alert:
+					'Hiding the cookie dialog popping up on your first visit.',
 				maps: 'Acknowledging the usage of Google Maps',
 				accept_cookies: 'Accepting the corresponding cookies',
 			},
@@ -403,7 +405,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 				hide_alert:
 					'Ausblenden des Cookie-Hinweises, der beim ersten Besuch der Webseite erscheint',
 				maps: 'Klick auf "OK" bei der Einverst\u00e4ndniserkl\u00e4rung zur Verwendung von interaktiven Karten',
-				accept_cookies: 'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
+				accept_cookies:
+					'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
 			},
 			duration: {
 				title: 'Dauer',
@@ -559,7 +562,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 			written_on: {
 				title: 'Written on',
 				every_visit: 'Every visit',
-				hide_alert: 'Hiding the cookie dialog popping up on your first visit.',
+				hide_alert:
+					'Hiding the cookie dialog popping up on your first visit.',
 				maps: 'Acknowledging the usage of Google Maps',
 				accept_cookies: 'Accepting the corresponding cookies',
 			},
@@ -720,7 +724,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 				hide_alert:
 					'Ausblenden des Cookie-Hinweises, der beim ersten Besuch der Webseite erscheint',
 				maps: 'Klick auf "OK" bei der Einverst\u00e4ndniserkl\u00e4rung zur Verwendung von interaktiven Karten',
-				accept_cookies: 'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
+				accept_cookies:
+					'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
 			},
 			duration: {
 				title: 'Dauer',
@@ -876,7 +881,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 			written_on: {
 				title: 'Written on',
 				every_visit: 'Every visit',
-				hide_alert: 'Hiding the cookie dialog popping up on your first visit.',
+				hide_alert:
+					'Hiding the cookie dialog popping up on your first visit.',
 				maps: 'Acknowledging the usage of Google Maps',
 				accept_cookies: 'Accepting the corresponding cookies',
 			},
@@ -1037,7 +1043,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 				hide_alert:
 					'Ausblenden des Cookie-Hinweises, der beim ersten Besuch der Webseite erscheint',
 				maps: 'Klick auf "OK" bei der Einverst\u00e4ndniserkl\u00e4rung zur Verwendung von interaktiven Karten',
-				accept_cookies: 'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
+				accept_cookies:
+					'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
 			},
 			duration: {
 				title: 'Dauer',
@@ -1193,7 +1200,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 			written_on: {
 				title: 'Written on',
 				every_visit: 'Every visit',
-				hide_alert: 'Hiding the cookie dialog popping up on your first visit.',
+				hide_alert:
+					'Hiding the cookie dialog popping up on your first visit.',
 				maps: 'Acknowledging the usage of Google Maps',
 				accept_cookies: 'Accepting the corresponding cookies',
 			},
@@ -1354,7 +1362,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 				hide_alert:
 					'Ausblenden des Cookie-Hinweises, der beim ersten Besuch der Webseite erscheint',
 				maps: 'Klick auf "OK" bei der Einverst\u00e4ndniserkl\u00e4rung zur Verwendung von interaktiven Karten',
-				accept_cookies: 'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
+				accept_cookies:
+					'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
 			},
 			duration: {
 				title: 'Dauer',
@@ -1510,7 +1519,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 			written_on: {
 				title: 'Written on',
 				every_visit: 'Every visit',
-				hide_alert: 'Hiding the cookie dialog popping up on your first visit.',
+				hide_alert:
+					'Hiding the cookie dialog popping up on your first visit.',
 				maps: 'Acknowledging the usage of Google Maps',
 				accept_cookies: 'Accepting the corresponding cookies',
 			},
@@ -1671,7 +1681,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 				hide_alert:
 					'Ausblenden des Cookie-Hinweises, der beim ersten Besuch der Webseite erscheint',
 				maps: 'Klick auf "OK" bei der Einverst\u00e4ndniserkl\u00e4rung zur Verwendung von interaktiven Karten',
-				accept_cookies: 'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
+				accept_cookies:
+					'Best\u00e4tigung der diesbez\u00fcglichen Cookies',
 			},
 			duration: {
 				title: 'Dauer',
@@ -1827,7 +1838,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 			written_on: {
 				title: 'Written on',
 				every_visit: 'Every visit',
-				hide_alert: 'Hiding the cookie dialog popping up on your first visit.',
+				hide_alert:
+					'Hiding the cookie dialog popping up on your first visit.',
 				maps: 'Acknowledging the usage of Google Maps',
 				accept_cookies: 'Accepting the corresponding cookies',
 			},
@@ -1924,7 +1936,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 		},
 		twilio_usa: {
 			name: 'Twilio Inc.',
-			address: '375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
+			address:
+				'375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
 			privacy_policy: 'https://www.twilio.com/legal/privacy',
 			privacy_shield:
 				'https://www.privacyshield.gov/participant?id=a2zt0000000TNLbAAO',
@@ -1938,7 +1951,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 		},
 		stripe: {
 			name: 'Stripe Inc.',
-			address: '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
+			address:
+				'185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
 			privacy_policy: 'https://stripe.com/privacy',
 			privacy_shield:
 				'https://www.privacyshield.gov/participant?id=a2zt0000000TQOUAA4',
@@ -1958,7 +1972,8 @@ this.webflorist['privacy-policy-text'] = (function (exports) {
 		paypal_eu: {
 			name: 'PayPal (Europe) S.a.r.l. et Cie',
 			address: 'S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg, EU',
-			privacy_policy: 'https://www.paypal.com/webapps/mpp/ua/privacy-full',
+			privacy_policy:
+				'https://www.paypal.com/webapps/mpp/ua/privacy-full',
 		},
 		chargebee: {
 			name: 'Chargebee Inc.',

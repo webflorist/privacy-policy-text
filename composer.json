@@ -29,6 +29,11 @@
 		"php": "^7.4|^8.0",
 		"ext-json": "*"
 	},
+	"autoload": {
+		"psr-4": {
+			"Webflorist\\PrivacyPolicyText\\": "src/php/"
+		}
+	},
 	"minimum-stability": "dev",
 	"prefer-stable": true
 }
