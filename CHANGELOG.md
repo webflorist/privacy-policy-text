@@ -1,5 +1,11 @@
 # Release Notes
 
+## [v1.3.1 (2022-01-02)](https://github.com/webflorist/privacy-policy-text/compare/v1.3.0...v1.3.1)
+
+- ADD demo link to README (73eb07c)
+- ADD additional processors and privacy shield links (8194ac6)
+- ADD info regarding data controller to README (940ebf9)
+
 ## [v1.3.0 (2022-01-02)](https://github.com/webflorist/privacy-policy-text/compare/v1.2.1...v1.3.0)
 
 - ADD data controller section and REMOVE privacy policy email (4bdc308)
