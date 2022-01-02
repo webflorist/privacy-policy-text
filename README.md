@@ -35,6 +35,7 @@ This package includes open source texts for a GDPR conform privacy policy of a w
 
   - A general **intro text**
   - Listing of **GDPR rights**
+  - Text to introduce **data controller**
   - General **data security** text (SSL, etc.)
   - **Cookies** information
   - Information on **data processing** of third party data processors:
