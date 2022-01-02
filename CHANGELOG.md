@@ -1,5 +1,9 @@
 # Release Notes
 
+## [v1.3.2 (2022-01-02)](https://github.com/webflorist/privacy-policy-text/compare/v1.3.1...v1.3.2)
+
+- CHANGE dist folder structure (becbc82)
+
 ## [v1.3.1 (2022-01-02)](https://github.com/webflorist/privacy-policy-text/compare/v1.3.0...v1.3.1)
 
 -   ADD demo link to README (73eb07c)
