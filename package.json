@@ -34,7 +34,7 @@
 		"dist/**/*.js"
 	],
 	"scripts": {
-		"build": "php ./src/generate.php && rollup -c",
+		"build": "php ./src/generate.php && rollup -c && yarn lintfix",
 		"release": "./release.sh",
 		"lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
 		"lintfix:js": "yarn lint:js --fix",
