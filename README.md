@@ -1,23 +1,29 @@
-# Privacy Policy Texts in German and English
+# Privacy Policy Texts in German and English<!-- omit in toc -->
 
 [![composer version](https://poser.pugx.org/webflorist/privacy-policy-text/v/stable)](https://packagist.org/packages/webflorist/privacy-policy-text)
 [![npm version](https://img.shields.io/npm/v/@webflorist/privacy-policy-text.svg)](https://www.npmjs.com/package/@webflorist/privacy-policy-text)
 
 This package includes open source texts for a GDPR conform privacy policy of a website. They come in php and json files to be used by common translation frameworks.
 
-## Table Of Contents
+## Table Of Contents<!-- omit in toc -->
 
-- [Privacy Policy Texts in German and English](#privacy-policy-texts-in-german-and-english)
-  - [Table Of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Ecosystem](#ecosystem)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [In Javascript](#in-javascript)
-    - [Interpolations](#interpolations)
-    - [Markdown Functionality](#markdown-functionality)
-  - [Disclaimer](#disclaimer)
-  - [License](#license)
+- [Demo](#demo)
+- [Features](#features)
+- [Ecosystem](#ecosystem)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [In Javascript](#in-javascript)
+  - [Interpolations](#interpolations)
+  - [Markdown Functionality](#markdown-functionality)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+
+## Demo
+
+An demo application with the texts included in this package is avaliable at:  
+<https://privacy-policy-vue-demo.netlify.app/>
+
+This demo uses the package [`webflorist/privacy-policy-vue`](https://github.com/webflorist/privacy-policy-vue).
 
 ## Features
 
