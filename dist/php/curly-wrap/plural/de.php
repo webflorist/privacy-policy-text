@@ -28,8 +28,13 @@ return [
 				'li7' =>
 					'**Recht auf Übertragung** Ihrer persönlichen Informationen an Sie.',
 			],
-			'p2' =>
-				'Sie können uns gerne unter {privacy_email} kontaktieren, wenn Sie Fragen oder Wünsche in Bezug auf diese Rechte haben.',
+		],
+	],
+	'data_controller' => [
+		'title' => 'Verantwortlicher',
+		'content' => [
+			'p1' =>
+				'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		],
 	],
 	'security' => [

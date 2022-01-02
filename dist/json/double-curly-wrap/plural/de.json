@@ -18,8 +18,13 @@
 				"li5": "**Recht auf Einschr\u00e4nkung** der Verarbeitung Ihrer pers\u00f6nlichen Informationen.",
 				"li6": "**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.",
 				"li7": "**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie."
-			},
-			"p2": "Sie k\u00f6nnen uns gerne unter {{privacy_email}} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben."
+			}
+		}
+	},
+	"data_controller": {
+		"title": "Verantwortlicher",
+		"content": {
+			"p1": "Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:"
 		}
 	},
 	"security": {

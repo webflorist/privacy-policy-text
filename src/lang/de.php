@@ -47,12 +47,15 @@ return [
 				'li7' =>
 					'**Recht auf Übertragung** Ihrer persönlichen Informationen an Sie.',
 			],
-			'p2' =>
-				'Sie können ' .
-				($s ? 'mich' : 'uns') .
-				' gerne unter ' .
-				$i('privacy_email') .
-				' kontaktieren, wenn Sie Fragen oder Wünsche in Bezug auf diese Rechte haben.',
+		],
+	],
+
+	/* Data controller */
+	'data_controller' => [
+		'title' => 'Verantwortlicher',
+		'content' => [
+			'p1' =>
+				'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		],
 	],
 

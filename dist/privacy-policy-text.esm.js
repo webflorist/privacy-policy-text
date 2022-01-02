@@ -19,7 +19,12 @@ var colonPrefixSingularDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen mich gerne unter :privacy_email kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+		},
+	},
+	data_controller: {
+		title: 'Verantwortlicher',
+		content: {
+			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
 	},
 	security: {
@@ -173,7 +178,12 @@ var colonPrefixSingularEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact me at :privacy_email.',
+		},
+	},
+	data_controller: {
+		title: 'Data Controller',
+		content: {
+			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
 		},
 	},
 	security: {
@@ -326,7 +336,12 @@ var colonPrefixPluralDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen uns gerne unter :privacy_email kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+		},
+	},
+	data_controller: {
+		title: 'Verantwortlicher',
+		content: {
+			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
 	},
 	security: {
@@ -480,7 +495,12 @@ var colonPrefixPluralEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact us at :privacy_email.',
+		},
+	},
+	data_controller: {
+		title: 'Data Controller',
+		content: {
+			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
 		},
 	},
 	security: {
@@ -633,7 +653,12 @@ var curlyWrapSingularDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen mich gerne unter {privacy_email} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+		},
+	},
+	data_controller: {
+		title: 'Verantwortlicher',
+		content: {
+			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
 	},
 	security: {
@@ -787,7 +812,12 @@ var curlyWrapSingularEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact me at {privacy_email}.',
+		},
+	},
+	data_controller: {
+		title: 'Data Controller',
+		content: {
+			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
 		},
 	},
 	security: {
@@ -940,7 +970,12 @@ var curlyWrapPluralDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen uns gerne unter {privacy_email} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+		},
+	},
+	data_controller: {
+		title: 'Verantwortlicher',
+		content: {
+			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
 	},
 	security: {
@@ -1094,7 +1129,12 @@ var curlyWrapPluralEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact us at {privacy_email}.',
+		},
+	},
+	data_controller: {
+		title: 'Data Controller',
+		content: {
+			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
 		},
 	},
 	security: {
@@ -1247,7 +1287,12 @@ var doubleCurlyWrapSingularDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen mich gerne unter {{privacy_email}} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+		},
+	},
+	data_controller: {
+		title: 'Verantwortlicher',
+		content: {
+			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
 	},
 	security: {
@@ -1401,7 +1446,12 @@ var doubleCurlyWrapSingularEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact me at {{privacy_email}}.',
+		},
+	},
+	data_controller: {
+		title: 'Data Controller',
+		content: {
+			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
 		},
 	},
 	security: {
@@ -1554,7 +1604,12 @@ var doubleCurlyWrapPluralDe = {
 				li6: '**Recht auf Widerruf** von Zustimmungen \u00fcber die Verarbeitung Ihrer Daten.',
 				li7: '**Recht auf \u00dcbertragung** Ihrer pers\u00f6nlichen Informationen an Sie.',
 			},
-			p2: 'Sie k\u00f6nnen uns gerne unter {{privacy_email}} kontaktieren, wenn Sie Fragen oder W\u00fcnsche in Bezug auf diese Rechte haben.',
+		},
+	},
+	data_controller: {
+		title: 'Verantwortlicher',
+		content: {
+			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
 	},
 	security: {
@@ -1708,7 +1763,12 @@ var doubleCurlyWrapPluralEn = {
 				li6: '**Right to object** to how your personal information is processed.',
 				li7: '**Right to portability** of your personal information over to you.',
 			},
-			p2: 'If you have questions or requests regarding these rights, feel free to contact us at {{privacy_email}}.',
+		},
+	},
+	data_controller: {
+		title: 'Data Controller',
+		content: {
+			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
 		},
 	},
 	security: {

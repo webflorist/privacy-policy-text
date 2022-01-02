@@ -116,7 +116,6 @@ provideTranslations({
 })
 
 const interpolations = {
-    'privacy_email': 'email@example.com',
     'webhosting_processor': 'Netlify Inc.',
     'analytics_service': 'Google Analytics',
     'analytics_processor': 'Google Ireland Limited',
@@ -160,9 +159,6 @@ The following interpolations are present in the language files:
 
 ```js
 {
-    // E-mail address for privacy related concerns
-    'privacy_email': 'email@example.com',
-
     // Name of the webhosting service
     'webhosting_service': 'Netlify Platform',
     // Company name of the webhosting processor

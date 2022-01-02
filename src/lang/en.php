@@ -46,12 +46,15 @@ return [
 				'li7' =>
 					'**Right to portability** of your personal information over to you.',
 			],
-			'p2' =>
-				'If you have questions or requests regarding these rights, feel free to contact ' .
-				($s ? 'me' : 'us') .
-				' at ' .
-				$i('privacy_email') .
-				'.',
+		],
+	],
+
+	/* Data controller */
+	'data_controller' => [
+		'title' => 'Data Controller',
+		'content' => [
+			'p1' =>
+				'If you have any questions or inquiries regarding the processing of your data, please contact:',
 		],
 	],
 

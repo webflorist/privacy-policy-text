@@ -18,8 +18,13 @@
 				"li5": "**Right to restrict processing** of your personal information.",
 				"li6": "**Right to object** to how your personal information is processed.",
 				"li7": "**Right to portability** of your personal information over to you."
-			},
-			"p2": "If you have questions or requests regarding these rights, feel free to contact me at :privacy_email."
+			}
+		}
+	},
+	"data_controller": {
+		"title": "Data Controller",
+		"content": {
+			"p1": "If you have any questions or inquiries regarding the processing of your data, please contact:"
 		}
 	},
 	"security": {
