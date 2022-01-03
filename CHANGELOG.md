@@ -1,5 +1,10 @@
 # Release Notes
 
+## [v1.4.0 (2022-01-03)](https://github.com/webflorist/privacy-policy-text/compare/v1.3.2...v1.4.0)
+
+- LINTFIX (4c18748)
+- ADD php Helpers class (18fb76c)
+
 ## [v1.3.2 (2022-01-02)](https://github.com/webflorist/privacy-policy-text/compare/v1.3.1...v1.3.2)
 
 -   CHANGE dist folder structure (becbc82)
