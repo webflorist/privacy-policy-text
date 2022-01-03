@@ -1,5 +1,10 @@
 # Release Notes
 
+## [v1.4.1 (2022-01-03)](https://github.com/webflorist/privacy-policy-text/compare/v1.4.0...v1.4.1)
+
+- CHANGE german translation of data controller to gender unspecific (d6b4db3)
+- LINTFIX (cbc5244)
+
 ## [v1.4.0 (2022-01-03)](https://github.com/webflorist/privacy-policy-text/compare/v1.3.2...v1.4.0)
 
 - LINTFIX (4c18748)
