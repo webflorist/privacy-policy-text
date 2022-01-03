@@ -31,7 +31,7 @@ return [
 		],
 	],
 	'data_controller' => [
-		'title' => 'Verantwortlicher',
+		'title' => 'Verantwortliche Person',
 		'content' => [
 			'p1' =>
 				'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',

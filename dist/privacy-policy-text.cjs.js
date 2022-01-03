@@ -26,7 +26,7 @@ var colonPrefixSingularDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortlicher',
+		title: 'Verantwortliche Person',
 		content: {
 			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
@@ -343,7 +343,7 @@ var colonPrefixPluralDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortlicher',
+		title: 'Verantwortliche Person',
 		content: {
 			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
@@ -660,7 +660,7 @@ var curlyWrapSingularDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortlicher',
+		title: 'Verantwortliche Person',
 		content: {
 			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
@@ -977,7 +977,7 @@ var curlyWrapPluralDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortlicher',
+		title: 'Verantwortliche Person',
 		content: {
 			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
@@ -1294,7 +1294,7 @@ var doubleCurlyWrapSingularDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortlicher',
+		title: 'Verantwortliche Person',
 		content: {
 			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
@@ -1611,7 +1611,7 @@ var doubleCurlyWrapPluralDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortlicher',
+		title: 'Verantwortliche Person',
 		content: {
 			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
 		},
