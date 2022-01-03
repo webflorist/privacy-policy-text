@@ -7,16 +7,16 @@ This package includes open source texts for a GDPR conform privacy policy of a w
 
 ## Table Of Contents<!-- omit in toc -->
 
--   [Demo](#demo)
--   [Features](#features)
--   [Ecosystem](#ecosystem)
--   [Installation](#installation)
--   [Usage](#usage)
-    -   [In Javascript](#in-javascript)
-    -   [Interpolations](#interpolations)
-    -   [Markdown Functionality](#markdown-functionality)
--   [Disclaimer](#disclaimer)
--   [License](#license)
+- [Demo](#demo)
+- [Features](#features)
+- [Ecosystem](#ecosystem)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [In Javascript](#in-javascript)
+  - [Interpolations](#interpolations)
+  - [Markdown Functionality](#markdown-functionality)
+- [Disclaimer](#disclaimer)
+- [License](#license)
 
 ## Demo
 
@@ -27,38 +27,39 @@ This demo uses the package [`webflorist/privacy-policy-vue`](https://github.com/
 
 ## Features
 
--   **Languages**  
-    Currently the package includes texts in **german** and **english** language.
+- **Languages**  
+  Currently the package includes texts in **german** and **english** language.
 
--   **Singular/Plural**  
-    The files are provided both from singular and plural viewpoints.  
-    (e.g. `My website...` vs `Our website...`)
+- **Singular/Plural**  
+  The files are provided both from singular and plural viewpoints.  
+  (e.g. `My website...` vs `Our website...`)
 
--   **Formats**  
-    Currently the package includes files in `php` as well as `json` format.
+- **Formats**  
+  Currently the package includes files in `php` as well as `json` format.
 
--   **Included Texts**
+- **Included Texts**
 
-    -   A general **intro text**
-    -   Listing of **GDPR rights**
-    -   Text to introduce **data controller**
-    -   General **data security** text (SSL, etc.)
-    -   **Cookies** information
-    -   Information on **data processing** of third party data processors:
-        -   Webhosting
-        -   Web analytics
-        -   Interactive maps
-        -   Sending of emails (e.g. contact forms)
-    -   Disclaimer regarding **outgoing links**
+  - A general **intro text**
+  - Listing of **GDPR rights**
+  - Text to introduce **data controller**
+  - General **data security** text (SSL, etc.)
+  - **Cookies** information
+  - Information on **data processing** of third party data processors:
+    - Webhosting
+    - Web analytics
+    - Interactive maps
+    - Sending of emails (e.g. contact forms)
+  - Disclaimer regarding **outgoing links**
 
 ## Ecosystem
 
 This package is mainly meant as a backend package for other implementations, which use it to provide a privacy policy component to a certain framework.
 
 The following companion package is currently available:
-Package | Framework
-------- | --------
-[webflorist/privacy-policy-vue](https://github.com/webflorist/privacy-policy-vue) | [Vue](https://vuejs.org/)
+| Package | Framework |
+| --------------------------------------------------------------------------------- | ------------------------- |
+| [webflorist/privacy-policy-vue](https://github.com/webflorist/privacy-policy-vue) | [Vue](https://vuejs.org/) |
+| [webflorist/privacy-policy-laravel](https://github.com/webflorist/privacy-policy-laravel) | [Vue](https://laravel.com/) |
 
 ## Installation
 
@@ -86,7 +87,7 @@ yarn add @webflorist/privacy-policy-text
 
 The ESM module exports the following stuff:
 
--   Objects structured as `{ de: Object, en: Object}` including the translation strings with the corresponding [interpolation](#interpolations) format:
+- Objects structured as `{ de: Object, en: Object}` including the translation strings with the corresponding [interpolation](#interpolations) format:
 
 ```js
 export const colonPrefixSingular : object
@@ -97,13 +98,13 @@ export const doubleCurlyWrapSingular : object
 export const doubleCurlyWrapPlural : object
 ```
 
--   An object with information about various processors (see [`processors.json`](https://github.com/webflorist/privacy-policy-text/blob/main/dist/json/processors.json)):
+- An object with information about various processors (see [`processors.json`](https://github.com/webflorist/privacy-policy-text/blob/main/dist/json/processors.json)):
 
 ```js
 export const defaultProcessors : object
 ```
 
--   A helper function to render the [markdown functionality](#markdown-functionality) in the language strings:
+- A helper function to render the [markdown functionality](#markdown-functionality) in the language strings:
 
 ```js
 export function renderText(text: string): string
@@ -155,12 +156,12 @@ return `
 
 Any dynamic parts of the language files can be interpolated by the translation-library of your choice. The following formats are supported (each with corresponding json and php files):
 
--   with colon prefix (`:key`)  
-     (e.g. used by [Laravel](https://laravel.com/docs/8.x/localization#replacing-parameters-in-translation-strings))
--   wrapped with curly braces (`{key}`)  
-     (e.g. used by [Vue I18n](https://vue-i18n.intlify.dev/guide/essentials/syntax.html#interpolations))
--   wrapped with double curly braces (`{{key}}`)  
-     (e.g. used by [i18next](https://www.i18next.com/translation-function/interpolation))
+- with colon prefix (`:key`)  
+   (e.g. used by [Laravel](https://laravel.com/docs/8.x/localization#replacing-parameters-in-translation-strings))
+- wrapped with curly braces (`{key}`)  
+   (e.g. used by [Vue I18n](https://vue-i18n.intlify.dev/guide/essentials/syntax.html#interpolations))
+- wrapped with double curly braces (`{{key}}`)  
+   (e.g. used by [i18next](https://www.i18next.com/translation-function/interpolation))
 
 The following interpolations are present in the language files:
 
@@ -192,8 +193,8 @@ The following interpolations are present in the language files:
 
 The language files include some markdown functionality:
 
--   `**Bold Elements**`
--   and `[Links to](#anchors)`
+- `**Bold Elements**`
+- and `[Links to](#anchors)`
 
 The package includes a `renderText(text)` function to render these markdowns. The package exports this function. So usage would be as follows:
 

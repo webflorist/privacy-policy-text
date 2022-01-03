@@ -79,8 +79,7 @@ export default {
 		written_on: {
 			title: 'Written on',
 			every_visit: 'Every visit',
-			hide_alert:
-				'Hiding the cookie dialog popping up on your first visit.',
+			hide_alert: 'Hiding the cookie dialog popping up on your first visit.',
 			maps: 'Acknowledging the usage of Google Maps',
 			accept_cookies: 'Accepting the corresponding cookies',
 		},

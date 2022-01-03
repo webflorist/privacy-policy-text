@@ -20,8 +20,7 @@ return [
 	],
 	'twilio_usa' => [
 		'name' => 'Twilio Inc.',
-		'address' =>
-			'375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
+		'address' => '375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
 		'privacy_policy' => 'https://www.twilio.com/legal/privacy',
 		'privacy_shield' =>
 			'https://www.privacyshield.gov/participant?id=a2zt0000000TNLbAAO',
@@ -35,8 +34,7 @@ return [
 	],
 	'stripe' => [
 		'name' => 'Stripe Inc.',
-		'address' =>
-			'185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
+		'address' => '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
 		'privacy_policy' => 'https://stripe.com/privacy',
 		'privacy_shield' =>
 			'https://www.privacyshield.gov/participant?id=a2zt0000000TQOUAA4',
@@ -56,8 +54,7 @@ return [
 	'paypal_eu' => [
 		'name' => 'PayPal (Europe) S.a.r.l. et Cie',
 		'address' => 'S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg, EU',
-		'privacy_policy' =>
-			'https://www.paypal.com/webapps/mpp/ua/privacy-full',
+		'privacy_policy' => 'https://www.paypal.com/webapps/mpp/ua/privacy-full',
 	],
 	'chargebee' => [
 		'name' => 'Chargebee Inc.',
