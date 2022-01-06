@@ -1,5 +1,9 @@
 # Release Notes
 
+## [v1.5.0 (2022-01-06)](https://github.com/webflorist/privacy-policy-text/compare/v1.4.1...v1.5.0)
+
+- CHANGE intro text and german title of data controller (eb75bad)
+
 ## [v1.4.1 (2022-01-03)](https://github.com/webflorist/privacy-policy-text/compare/v1.4.0...v1.4.1)
 
 - CHANGE german translation of data controller to gender unspecific (d6b4db3)
