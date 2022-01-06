@@ -52,10 +52,12 @@ return [
 
 	/* Data controller */
 	'data_controller' => [
-		'title' => 'Verantwortliche Person',
+		'title' => 'Verantwortliche Stelle',
 		'content' => [
 			'p1' =>
-				'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+				'Die verantwortliche Stelle ist die natürliche oder juristische Person, die über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet. Für ' .
+				($s ? 'meine' : 'unsere') .
+				' Webseite ist dies:',
 		],
 	],
 

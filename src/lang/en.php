@@ -54,7 +54,9 @@ return [
 		'title' => 'Data Controller',
 		'content' => [
 			'p1' =>
-				'If you have any questions or inquiries regarding the processing of your data, please contact:',
+				'The data controller is the person or company responsible for the purposes and types of processing of personal data (e.g. name, e-mail-addresses, etc.). In case of ' .
+				($s ? 'my' : 'our') .
+				' website that is:',
 		],
 	],
 

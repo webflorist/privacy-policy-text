@@ -26,9 +26,9 @@ var colonPrefixSingularDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortliche Person',
+		title: 'Verantwortliche Stelle',
 		content: {
-			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+			p1: 'Die verantwortliche Stelle ist die nat\u00fcrliche oder juristische Person, die \u00fcber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. \u00c4.) entscheidet. F\u00fcr meine Webseite ist dies:',
 		},
 	},
 	security: {
@@ -187,7 +187,7 @@ var colonPrefixSingularEn = {
 	data_controller: {
 		title: 'Data Controller',
 		content: {
-			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
+			p1: 'The data controller is the person or company responsible for the purposes and types of processing of personal data (e.g. name, e-mail-addresses, etc.). In case of my website that is:',
 		},
 	},
 	security: {
@@ -343,9 +343,9 @@ var colonPrefixPluralDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortliche Person',
+		title: 'Verantwortliche Stelle',
 		content: {
-			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+			p1: 'Die verantwortliche Stelle ist die nat\u00fcrliche oder juristische Person, die \u00fcber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. \u00c4.) entscheidet. F\u00fcr unsere Webseite ist dies:',
 		},
 	},
 	security: {
@@ -504,7 +504,7 @@ var colonPrefixPluralEn = {
 	data_controller: {
 		title: 'Data Controller',
 		content: {
-			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
+			p1: 'The data controller is the person or company responsible for the purposes and types of processing of personal data (e.g. name, e-mail-addresses, etc.). In case of our website that is:',
 		},
 	},
 	security: {
@@ -660,9 +660,9 @@ var curlyWrapSingularDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortliche Person',
+		title: 'Verantwortliche Stelle',
 		content: {
-			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+			p1: 'Die verantwortliche Stelle ist die nat\u00fcrliche oder juristische Person, die \u00fcber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. \u00c4.) entscheidet. F\u00fcr meine Webseite ist dies:',
 		},
 	},
 	security: {
@@ -821,7 +821,7 @@ var curlyWrapSingularEn = {
 	data_controller: {
 		title: 'Data Controller',
 		content: {
-			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
+			p1: 'The data controller is the person or company responsible for the purposes and types of processing of personal data (e.g. name, e-mail-addresses, etc.). In case of my website that is:',
 		},
 	},
 	security: {
@@ -977,9 +977,9 @@ var curlyWrapPluralDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortliche Person',
+		title: 'Verantwortliche Stelle',
 		content: {
-			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+			p1: 'Die verantwortliche Stelle ist die nat\u00fcrliche oder juristische Person, die \u00fcber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. \u00c4.) entscheidet. F\u00fcr unsere Webseite ist dies:',
 		},
 	},
 	security: {
@@ -1138,7 +1138,7 @@ var curlyWrapPluralEn = {
 	data_controller: {
 		title: 'Data Controller',
 		content: {
-			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
+			p1: 'The data controller is the person or company responsible for the purposes and types of processing of personal data (e.g. name, e-mail-addresses, etc.). In case of our website that is:',
 		},
 	},
 	security: {
@@ -1294,9 +1294,9 @@ var doubleCurlyWrapSingularDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortliche Person',
+		title: 'Verantwortliche Stelle',
 		content: {
-			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+			p1: 'Die verantwortliche Stelle ist die nat\u00fcrliche oder juristische Person, die \u00fcber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. \u00c4.) entscheidet. F\u00fcr meine Webseite ist dies:',
 		},
 	},
 	security: {
@@ -1455,7 +1455,7 @@ var doubleCurlyWrapSingularEn = {
 	data_controller: {
 		title: 'Data Controller',
 		content: {
-			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
+			p1: 'The data controller is the person or company responsible for the purposes and types of processing of personal data (e.g. name, e-mail-addresses, etc.). In case of my website that is:',
 		},
 	},
 	security: {
@@ -1611,9 +1611,9 @@ var doubleCurlyWrapPluralDe = {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortliche Person',
+		title: 'Verantwortliche Stelle',
 		content: {
-			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+			p1: 'Die verantwortliche Stelle ist die nat\u00fcrliche oder juristische Person, die \u00fcber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. \u00c4.) entscheidet. F\u00fcr unsere Webseite ist dies:',
 		},
 	},
 	security: {
@@ -1772,7 +1772,7 @@ var doubleCurlyWrapPluralEn = {
 	data_controller: {
 		title: 'Data Controller',
 		content: {
-			p1: 'If you have any questions or inquiries regarding the processing of your data, please contact:',
+			p1: 'The data controller is the person or company responsible for the purposes and types of processing of personal data (e.g. name, e-mail-addresses, etc.). In case of our website that is:',
 		},
 	},
 	security: {

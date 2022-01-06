@@ -22,9 +22,9 @@ export default {
 		},
 	},
 	data_controller: {
-		title: 'Verantwortliche Person',
+		title: 'Verantwortliche Stelle',
 		content: {
-			p1: 'Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an:',
+			p1: 'Die verantwortliche Stelle ist die nat\u00fcrliche oder juristische Person, die \u00fcber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. \u00c4.) entscheidet. F\u00fcr unsere Webseite ist dies:',
 		},
 	},
 	security: {
