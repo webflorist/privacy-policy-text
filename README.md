@@ -60,7 +60,7 @@ The following companion package is currently available:
 | Package | Framework |
 | --------------------------------------------------------------------------------- | ------------------------- |
 | [webflorist/privacy-policy-vue](https://github.com/webflorist/privacy-policy-vue) | [Vue](https://vuejs.org/) |
-| [webflorist/privacy-policy-laravel](https://github.com/webflorist/privacy-policy-laravel) | [Vue](https://laravel.com/) |
+| [webflorist/privacy-policy-laravel](https://github.com/webflorist/privacy-policy-laravel) | [Laravel](https://laravel.com/) |
 
 ## Installation
 
