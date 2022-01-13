@@ -1,5 +1,13 @@
 # Release Notes
 
+## [v1.5.1 (2022-01-13)](https://github.com/webflorist/privacy-policy-text/compare/v1.5.0...v1.5.1)
+
+- build: move rollup to devDependencies (2c0bd0a)
+- docs(README): fix license link (32bb8a4)
+- Merge branch 'main' of github.com:webflorist/privacy-policy-text (5f05bb5)
+- docs(README): add license badge (9223308)
+- MINOR fix in readme (1ab0cdf)
+
 ## [v1.5.0 (2022-01-06)](https://github.com/webflorist/privacy-policy-text/compare/v1.4.1...v1.5.0)
 
 - CHANGE intro text and german title of data controller (eb75bad)
