@@ -56,7 +56,7 @@ This demo uses the package [`webflorist/privacy-policy-vue`](https://github.com/
 
 This package is mainly meant as a backend package for other implementations, which use it to provide a privacy policy component to a certain framework.
 
-The following companion package is currently available:
+The following companion packages are currently available:
 | Package | Framework |
 | --------------------------------------------------------------------------------- | ------------------------- |
 | [webflorist/privacy-policy-vue](https://github.com/webflorist/privacy-policy-vue) | [Vue](https://vuejs.org/) |
