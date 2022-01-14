@@ -1,5 +1,12 @@
 # Release Notes
 
+## [1.5.4](https://github.com/webflorist/privacy-policy-text/compare/v1.5.3...v1.5.4) (2022-01-14)
+
+
+### Bug Fixes
+
+* add @semantic-release/git ([09ae623](https://github.com/webflorist/privacy-policy-text/commit/09ae623cb4d787cd0ccf24fc692b6c6e74442624))
+
 ## [v1.5.1 (2022-01-13)](https://github.com/webflorist/privacy-policy-text/compare/v1.5.0...v1.5.1)
 
 - build: move rollup to devDependencies (2c0bd0a)
