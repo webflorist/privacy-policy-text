@@ -45,6 +45,7 @@
 	},
 	"devDependencies": {
 		"@prettier/plugin-php": "^0.17.6",
+		"@semantic-release/changelog": "^6.0.1",
 		"@typescript-eslint/eslint-plugin": "^5.7.0",
 		"@typescript-eslint/parser": "^5.7.0",
 		"eslint": "^8.4.1",
