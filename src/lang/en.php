@@ -209,19 +209,15 @@ return [
 				'p1' =>
 					'If you accept web analytics in the cookie notification, ' .
 					($s ? 'my' : 'our') .
-					' website will forward log data to the service **' .
-					$i('analytics_service') .
-					'** provided by ' .
+					' website will forward log data to ' .
 					$i('analytics_processor') .
-					'. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using ' .
+					'. The purpose ot this data processing is to track and report website traffic for statistical purposes and to understand and improve how visitors are using ' .
 					($s ? 'my' : 'our') .
-					' website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to a contract between us and ' .
+					' website. Any collected data will be pseudonymized (by deleting part of your IP address) processed according to a contract between us and ' .
 					$i('analytics_processor') .
 					'. Data will be stored for the duration 26 months.',
 				'p2' =>
-					'Please note, that no data will be transferred to ' .
-					$i('analytics_service') .
-					' at all, if you do not explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
+					'Please note, that data will only be transferred, if you explicitly accept the cookie notification visible on the page on your first visit ("OPT-IN"). Data processing is therefore according to Article 6 (1a) of the GDPR.',
 			],
 		],
 
@@ -231,17 +227,15 @@ return [
 			'content' => [
 				'p1' =>
 					($s ? 'My' : 'Our') .
-					' website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **' .
-					$i('maps_service') .
-					'** provided by ' .
+					' website provides the functionality of interactive maps on demand (e.g. for calculating routes). This will transmit data to ' .
 					$i('maps_processor') .
 					'.',
 				'p2' =>
-					'A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to ' .
-					$i('maps_service') .
+					'If you accept the corresponding data processing, the map will be displayed and personal data (like usage and location) will be sent to ' .
+					$i('maps_processor') .
 					' and needed cookies will be set.',
 				'p3' =>
-					'Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map ("OPT-IN"). Data processing is therefor according to Article 6 (1a) of the GDPR.',
+					'Please note that no data will be transferred, if you do not explicitly consent to data processing on using interactive maps ("OPT-IN"). Data processing is therefore according to Article 6 (1a) of the GDPR.',
 			],
 		],
 
@@ -253,11 +247,7 @@ return [
 					($s ? 'My' : 'Our') .
 					' website includes forms, that can be used to send ' .
 					($s ? 'me' : 'us') .
-					' an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **' .
-					$i('send_emails_service') .
-					'** of ' .
-					($s ? 'my' : 'our') .
-					' processor ' .
+					' an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via ' .
 					$i('send_emails_processor') .
 					' into ' .
 					($s ? 'my' : 'our') .
@@ -276,7 +266,7 @@ return [
 				($s ? 'me' : 'us') .
 				'. When clicking such an outgoing link, you will be redirected there. ' .
 				($s ? 'I' : 'We') .
-				' have no control over these websites and their privacy policies. Therefor ' .
+				' have no control over these websites and their privacy policies. Therefore ' .
 				($s ? 'i' : 'we') .
 				' assume no responsibility regarding their content or behaviour. ' .
 				($s ? 'I' : 'We') .

@@ -126,12 +126,9 @@ provideTranslations({
 
 const interpolations = {
     'webhosting_processor': 'Netlify Inc.',
-    'analytics_service': 'Google Analytics',
-    'analytics_processor': 'Google Ireland Limited',
-    'maps_service': 'Google Maps',
-    'maps_processor': 'Google LLC',
-    'send_emails_service': 'Twilio Sendgrid',
-    'send_emails_processor': 'Twilio Inc.',
+    'analytics_processor': 'Google Analytics (provided by Google Ireland Limited)',
+    'maps_processor': 'Google Maps (provided by Google LLC)',
+    'send_emails_processor': 'Twilio Sendgrid (provided by Twilio Inc.)',
 }
 
 // Custom translation function, which uses renderText
@@ -168,25 +165,17 @@ The following interpolations are present in the language files:
 
 ```js
 {
-    // Name of the webhosting service
-    'webhosting_service': 'Netlify Platform',
-    // Company name of the webhosting processor
+    // Name(s) of webhosting processor(s)
     'webhosting_processor': 'Netlify Inc.',
 
-    // Name of the analytics service
-    'analytics_service': 'Google Analytics',
-    // Company name of the analytics processor
-    'analytics_processor': 'Google Ireland Limited',
+    // Name(s) of the analytics service(s)/processor(s)
+    'analytics_processor': 'Google Analytics (provided by Google Ireland Limited)',
 
-    // Name of the maps service
-    'maps_service': 'Google Maps',
-    // Company name of the maps processor
-    'maps_processor': 'Google LLC',
+    // Name of the maps service(s)/processor(s)
+    'maps_processor': 'Google Maps (provided by Google LLC)',
 
-    // Name of the email sending service
-    'send_emails_service': 'Twilio Sendgrid',
-    // Company name of the email sending processor
-    'send_emails_processor': 'Twilio Inc.',
+    // Name of the email sending service(s)/processor(s)
+    'send_emails_processor': 'Twilio Sendgrid (provided by Twilio Inc.)',
 }
 ```
 
