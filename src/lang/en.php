@@ -194,7 +194,7 @@ return [
 					($s ? 'my' : 'our') .
 					' website and enables ' .
 					($s ? 'me' : 'us') .
-					' to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between ' .
+					' to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data will be processed according to a contract between ' .
 					($s ? 'me' : 'us') .
 					' and ' .
 					$i('webhosting_processor') .
@@ -215,7 +215,7 @@ return [
 					$i('analytics_processor') .
 					'. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using ' .
 					($s ? 'my' : 'our') .
-					' website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the "Privacy Shield" agreement between EU und USA and based on a data processing contract between us and ' .
+					' website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to a contract between us and ' .
 					$i('analytics_processor') .
 					'. Data will be stored for the duration 26 months.',
 				'p2' =>

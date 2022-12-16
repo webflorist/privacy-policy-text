@@ -10,8 +10,6 @@ return [
 		'name' => 'Google LLC',
 		'address' => '1600 Amphitheatre Parkway, Mountain View, CA 94043, USA',
 		'privacy_policy' => 'https://policies.google.com/privacy',
-		'privacy_shield' =>
-			'https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI',
 	],
 	'twilio_eu' => [
 		'name' => 'Twilio Ireland Limited',
@@ -22,22 +20,16 @@ return [
 		'name' => 'Twilio Inc.',
 		'address' => '375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
 		'privacy_policy' => 'https://www.twilio.com/legal/privacy',
-		'privacy_shield' =>
-			'https://www.privacyshield.gov/participant?id=a2zt0000000TNLbAAO',
 	],
 	'netlify' => [
 		'name' => 'Netlify Inc.',
 		'address' => '2325 3rd Street, Suite 296, San Francisco, CA 94107, USA',
 		'privacy_policy' => 'https://www.netlify.com/privacy/',
-		'privacy_shield' =>
-			'https://www.privacyshield.gov/participant?id=a2zt00000008RhTAAU',
 	],
 	'stripe' => [
 		'name' => 'Stripe Inc.',
 		'address' => '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
 		'privacy_policy' => 'https://stripe.com/privacy',
-		'privacy_shield' =>
-			'https://www.privacyshield.gov/participant?id=a2zt0000000TQOUAA4',
 	],
 	'storyblok' => [
 		'name' => 'Storyblok GmbH',
@@ -48,8 +40,6 @@ return [
 		'name' => 'Amazon Web Services Inc.',
 		'address' => '410 Terry Avenue North, Seattle, WA 98109-5210, USA',
 		'privacy_policy' => 'https://aws.amazon.com/privacy',
-		'privacy_shield' =>
-			'https://www.privacyshield.gov/participant?id=a2zt0000000TOWQAA4',
 	],
 	'paypal_eu' => [
 		'name' => 'PayPal (Europe) S.a.r.l. et Cie',
