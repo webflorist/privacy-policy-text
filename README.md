@@ -102,7 +102,7 @@ export const doubleCurlyWrapPlural : object
 - An object with information about various processors (see [`processors.json`](https://github.com/webflorist/privacy-policy-text/blob/main/dist/json/processors.json)):
 
 ```js
-export const defaultProcessors : object
+export const processors : object
 ```
 
 - A helper function to render the [markdown functionality](#markdown-functionality) in the language strings:
