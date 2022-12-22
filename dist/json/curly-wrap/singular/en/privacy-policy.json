@@ -98,35 +98,35 @@
 					"li3": "visited pages,",
 					"li4": "type, version and language of your browser and operating system."
 				},
-				"p2": "This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data might be stored in the European Union or the United States and will be processed according to the \"Privacy Shield\" agreement between EU und USA and based on a data processing contract between me and {webhosting_processor}. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR."
+				"p2": "This data is transmitted and logged automatically to ensure the connectivity and functionality of my website and enables me to evaluate and ensure its security and stability. The data is kept until the log is deleted. The collected data is essential for running and maintaining this website and is in no way used to identify or track you as a person. Data will be processed according to a contract between me and {webhosting_processor}. Collection and processing of this data is in accordance with Article 6 (1) of the GDPR."
 			}
 		},
 		"analytics": {
 			"title": "Web Analytics",
 			"content": {
-				"p1": "If you accept web analytics in the cookie notification, my website will forward log data to the service **{analytics_service}** provided by {analytics_processor}. This service is used to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) and might be stored in the European Union or the United States. Any data will be processed according to the \"Privacy Shield\" agreement between EU und USA and based on a data processing contract between us and {analytics_processor}. Data will be stored for the duration 26 months.",
-				"p2": "Please note, that no data will be transferred to {analytics_service} at all, if you do not explicitly accept the cookie notification visible on the page on your first visit (\"OPT-IN\"). Data processing is therefor according to Article 6 (1a) of the GDPR."
+				"p1": "If you accept web analytics in the cookie notification, my website will forward log data to {analytics_processor}. The purpose ot this data processing is to track and report website traffic for statistical purposes and to understand and improve how visitors are using my website. Any collected data will be pseudonymized (by deleting part of your IP address) processed according to a contract between us and {analytics_processor}. Data will be stored for the duration 26 months.",
+				"p2": "Please note, that data will only be transferred, if you explicitly accept the cookie notification visible on the page on your first visit (\"OPT-IN\"). Data processing is therefore according to Article 6 (1a) of the GDPR."
 			}
 		},
 		"maps": {
 			"title": "Interactive Maps",
 			"content": {
-				"p1": "My website provides the functionality of interactive maps on demand (e.g. for calculating routes) using the service **{maps_service}** provided by {maps_processor}.",
-				"p2": "A corresponding data protection notice will be shown on accessing an interactive map for the first time. The map will only be shown, if you accept this notice. As a result personal data (like usage and location) will be sent to {maps_service} and needed cookies will be set.",
-				"p3": "Please note that no data will be transferred, if you do not explicitly consent in the data protection notice shown on first access of an interactive map (\"OPT-IN\"). Data processing is therefor according to Article 6 (1a) of the GDPR."
+				"p1": "My website provides the functionality of interactive maps on demand (e.g. for calculating routes). This will transmit data to {maps_processor}.",
+				"p2": "If you accept the corresponding data processing, the map will be displayed and personal data (like usage and location) will be sent to {maps_processor} and needed cookies will be set.",
+				"p3": "Please note that no data will be transferred, if you do not explicitly consent to data processing on using interactive maps (\"OPT-IN\"). Data processing is therefore according to Article 6 (1a) of the GDPR."
 			}
 		},
 		"send_emails": {
 			"title": "E-Mail Submission",
 			"content": {
-				"p1": "My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via the service **{send_emails_service}** of my processor {send_emails_processor} into my mailbox."
+				"p1": "My website includes forms, that can be used to send me an e-mail. The form collects your name, e-mail-address as well other data. When submitting the form, this data will be transmitted via {send_emails_processor} into my mailbox."
 			}
 		}
 	},
 	"outgoing_links": {
 		"title": "Outgoing Links",
 		"content": {
-			"p1": "My website includes links to other websites, which are not operated by me. When clicking such an outgoing link, you will be redirected there. I have no control over these websites and their privacy policies. Therefor i assume no responsibility regarding their content or behaviour. I recommend you check their privacy policies for details."
+			"p1": "My website includes links to other websites, which are not operated by me. When clicking such an outgoing link, you will be redirected there. I have no control over these websites and their privacy policies. Therefore i assume no responsibility regarding their content or behaviour. I recommend you check their privacy policies for details."
 		}
 	},
 	"data_purpose": {

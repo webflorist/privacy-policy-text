@@ -129,34 +129,34 @@ return [
 						'Typ, Version und Sprache Ihres Web-Browsers und Betriebssystems.',
 				],
 				'p2' =>
-					'Diese Daten werden automatisch übertragen und geloggt, um die Erreichbarkeit, Funktionalität, Sicherheit und Stabilität unserer Webseite zu gewährleisten. Die Daten bleiben gespeichert bis die Logdatei gelöscht wird. Die gesammelten Daten sind technisch notwendig für den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Die Daten können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {webhosting_processor}. Sammlung und Verarbeitung dieser Daten erfolgt in Übereinstimmung mit Artikel 6 (1) der DSGVO.',
+					'Diese Daten werden automatisch übertragen und geloggt, um die Erreichbarkeit, Funktionalität, Sicherheit und Stabilität unserer Webseite zu gewährleisten. Die Daten bleiben gespeichert bis die Logdatei gelöscht wird. Die gesammelten Daten sind technisch notwendig für den Betrieb und die Wartung dieser Webseite und werden in keiner Weise verwendet, um Sie als Person zu identifizieren oder zu tracken. Alle Datenverarbeitungen werden auf Grundlage eines Vertrags zwischen uns und {webhosting_processor}. Sammlung und Verarbeitung dieser Daten erfolgt in Übereinstimmung mit Artikel 6 (1) der DSGVO.',
 			],
 		],
 		'analytics' => [
 			'title' => 'Web-Analyse',
 			'content' => [
 				'p1' =>
-					'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an den Dienst **{analytics_service}** von {analytics_processor} gesendet. Dieser Dienst sammelt Daten über die Verwendung der Webseite für statistische Zwecke und um die Benutzerführung unserer Seite zu verbessern. Sämtliche gesammelten Daten werden pseudonymisiert (durch Löschen eines Teils Ihrer IP-Adresse) und können sowohl in der Europäischen Union als auch in den Vereinigten Staaten gespeichert werden. Alle Datenverarbeitungen werden auf Grundlage des "Privacy Shield" Abkommens zwischen der EU und den USA und eines Vertrags zwischen uns und {analytics_processor}. Die Daten bleiben für die Dauer von 26 Monaten gespeichert.',
+					'Wenn Sie Web-Analyse im Cookie-Hinweis akzeptieren, werden Log Daten auch an {analytics_processor} gesendet. Dies dient zur Sammlung von statistischen Daten über die Verwendung der Webseite, um z.B. die Benutzerführung unserer Seite zu verbessern. Sämtliche gesammelten Daten werden pseudonymisiert (durch Löschen eines Teils Ihrer IP-Adresse). Alle Datenverarbeitungen werden auf Grundlage eines Vertrags zwischen uns und {analytics_processor}. Die Daten bleiben für die Dauer von 26 Monaten gespeichert.',
 				'p2' =>
-					'Bitte beachten Sie, dass keinerlei Daten zu {analytics_service} transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in Übereinstimmung mit Artikel 6 (1a) der DSGVO.',
+					'Bitte beachten Sie, dass hierbei keinerlei Daten zu transferiert werden, sofern Sie nicht explizit im Cookie-Hinweis zustimmen, der bei Ihrem ersten Besuch der Seite erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in Übereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			],
 		],
 		'maps' => [
 			'title' => 'Interaktive Karten',
 			'content' => [
 				'p1' =>
-					'Unsere Webseite bietet auf Anforderung die Funktionalität zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtsplänen). Dabei wird der Dienst **{maps_service}** von {maps_processor} verwendet.',
+					'Unsere Webseite bietet auf Anforderung die Funktionalität zur Darstellung interaktiver Karten (z.B. zur Erstellung von Anfahrtsplänen). Dabei werden Daten an {maps_processor} gesendet.',
 				'p2' =>
-					'Beim (ersten) Einblenden einer interaktiven Karte erscheint ein entsprechender Datenschutz-Hinweis. Wenn Sie diesem zustimmen, wird die Karte eingeblendet. Dabei werden auch persönliche Daten (wie Nutzungs- und Standort-Daten) an {maps_service} gesendet sowie diverse Cookies gesetzt.',
+					'Wenn Sie der damit verbundenen Datenverarbeitung zustimmen, wird die Karte eingeblendet. Dabei werden auch persönliche Daten (wie Nutzungs- und Standort-Daten) an {maps_processor} gesendet sowie diverse Cookies gesetzt.',
 				'p3' =>
-					'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit im Datenschutz-Hinweis zustimmen, der bei Ihrem ersten Aufruf einer interaktiven Karte erscheint ("OPT-IN"). Die Datenverarbeitung geschieht somit in Übereinstimmung mit Artikel 6 (1a) der DSGVO.',
+					'Bitte beachten Sie, dass keinerlei Daten transferiert werden, sofern Sie nicht explizit der Datenverarbeitung zum Zweck der Anzeige interaktiver Karten zustimmen ("OPT-IN"). Die Datenverarbeitung geschieht somit in Übereinstimmung mit Artikel 6 (1a) der DSGVO.',
 			],
 		],
 		'send_emails' => [
 			'title' => 'E-Mail-Versand',
 			'content' => [
 				'p1' =>
-					'Unsere Webseite verfügt über Formulare, die verwendet werden können, um uns eine E-Mail zu senden. Im Formular können Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese über den Dienst **{send_emails_service}** vom Anbieter {send_emails_processor} in unsere Mailbox zugestellt.',
+					'Unsere Webseite verfügt über Formulare, die verwendet werden können, um uns eine E-Mail zu senden. Im Formular können Sie Ihren Namen, Ihre E-Mail-Adresse sowie andere Daten eingeben. Beim Absenden der Anfrage werden diese über {send_emails_processor} in unsere Mailbox zugestellt.',
 			],
 		],
 	],
