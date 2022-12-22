@@ -1,62 +1,107 @@
-export default {
-	google_eu: {
+export default [
+	{
 		name: 'Google Ireland Limited',
-		address: 'Gordon House, Barrow Street, Dublin 4, Ireland, EU',
-		privacy_policy: 'https://policies.google.com/privacy',
+		street: 'Gordon House, Barrow Street',
+		zip: 'D4',
+		city: 'Dublin',
+		country: 'IE',
+		privacy_policy_url: 'https://policies.google.com/privacy',
 	},
-	google_usa: {
+	{
 		name: 'Google LLC',
-		address: '1600 Amphitheatre Parkway, Mountain View, CA 94043, USA',
-		privacy_policy: 'https://policies.google.com/privacy',
-		privacy_shield:
-			'https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI',
+		street: '1600 Amphitheatre Parkway',
+		zip: 'CA 94043',
+		city: 'Mountain View',
+		country: 'US',
+		privacy_policy_url: 'https://policies.google.com/privacy',
 	},
-	twilio_eu: {
+	{
 		name: 'Twilio Ireland Limited',
-		address: '25-28 North Wall Quay, Dublin 1, Ireland, EU',
-		privacy_policy: 'https://www.twilio.com/legal/privacy',
+		street: '25-28 North Wall Quay',
+		zip: 'D1',
+		city: 'Dublin',
+		country: 'IE',
+		privacy_policy_url: 'https://www.twilio.com/legal/privacy',
 	},
-	twilio_usa: {
+	{
 		name: 'Twilio Inc.',
-		address: '375 Beale Street, Suite 300, San Francisco, CA 94105, USA',
-		privacy_policy: 'https://www.twilio.com/legal/privacy',
-		privacy_shield:
-			'https://www.privacyshield.gov/participant?id=a2zt0000000TNLbAAO',
+		street: '375 Beale Street, Suite 300',
+		zip: 'CA 94105',
+		city: 'San Francisco',
+		country: 'US',
+		privacy_policy_url: 'https://www.twilio.com/legal/privacy',
 	},
-	netlify: {
+	{
 		name: 'Netlify Inc.',
-		address: '2325 3rd Street, Suite 296, San Francisco, CA 94107, USA',
-		privacy_policy: 'https://www.netlify.com/privacy/',
-		privacy_shield:
-			'https://www.privacyshield.gov/participant?id=a2zt00000008RhTAAU',
+		street: '2325 3rd Street, Suite 296',
+		zip: 'CA 94107',
+		city: 'San Francisco',
+		country: 'US',
+		privacy_policy_url: 'https://www.netlify.com/privacy/',
 	},
-	stripe: {
+	{
 		name: 'Stripe Inc.',
-		address: '185 Berry Street, Suite 550, San Francisco, CA 94107, USA',
-		privacy_policy: 'https://stripe.com/privacy',
-		privacy_shield:
-			'https://www.privacyshield.gov/participant?id=a2zt0000000TQOUAA4',
+		street: '185 Berry Street, Suite 550',
+		zip: 'CA 94107',
+		city: 'San Francisco',
+		country: 'US',
+		privacy_policy_url: 'https://stripe.com/privacy',
 	},
-	storyblok: {
+	{
 		name: 'Storyblok GmbH',
-		address: 'Peter-Behrens-Platz 2, A-4020 Linz, Austria, EU',
-		privacy_policy: 'https://www.storyblok.com/legal/privacy-policy',
+		street: 'Peter-Behrens-Platz 2',
+		zip: '4020',
+		city: 'Linz',
+		country: 'AT',
+		privacy_policy_url: 'https://www.storyblok.com/legal/privacy-policy',
 	},
-	amazon_web_services: {
+	{
 		name: 'Amazon Web Services Inc.',
-		address: '410 Terry Avenue North, Seattle, WA 98109-5210, USA',
-		privacy_policy: 'https://aws.amazon.com/privacy',
-		privacy_shield:
-			'https://www.privacyshield.gov/participant?id=a2zt0000000TOWQAA4',
+		street: '410 Terry Avenue North',
+		zip: 'WA 98109-5210',
+		city: 'Seattle',
+		country: 'US',
+		privacy_policy_url: 'https://aws.amazon.com/privacy',
 	},
-	paypal_eu: {
+	{
 		name: 'PayPal (Europe) S.a.r.l. et Cie',
-		address: 'S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg, EU',
-		privacy_policy: 'https://www.paypal.com/webapps/mpp/ua/privacy-full',
+		street: 'S.C.A., 22-24 Boulevard Royal',
+		zip: 'L-2449',
+		city: 'Luxembourg',
+		country: 'LU',
+		privacy_policy_url: 'https://www.paypal.com/webapps/mpp/ua/privacy-full',
 	},
-	chargebee: {
+	{
 		name: 'Chargebee Inc.',
-		address: '340 S Lemon Avenue, #1537, Walnut, California 91789, USA',
-		privacy_policy: 'https://www.chargebee.com/privacy/',
+		street: '340 S Lemon Avenue, #1537',
+		zip: 'CA 91789',
+		city: 'Walnut',
+		country: 'US',
+		privacy_policy_url: 'https://www.chargebee.com/privacy/',
 	},
-}
+	{
+		name: 'Domaintechnik - Ledl.net GmbH',
+		street: 'Lederergasse 6',
+		zip: '5204',
+		city: 'Stra\u00dfwalchen',
+		country: 'AT',
+		privacy_policy_url:
+			'https://www.domaintechnik.at/datenschutzerklaerung.html',
+	},
+	{
+		name: 'Host Europe GmbH',
+		street: 'c/o WeWork, Friesenplatz 4',
+		zip: '50672',
+		city: 'K\u00f6ln',
+		country: 'DE',
+		privacy_policy_url: 'https://www.hosteurope.de/AGB/Datenschutzerklaerung/',
+	},
+	{
+		name: 'Domainfactory GmbH',
+		street: 'c/o WeWork, Neuturmstrasse 5',
+		zip: '80331',
+		city: 'M\u00fcnchen',
+		country: 'DE',
+		privacy_policy_url: 'https://www.df.eu/de/datenschutz/',
+	},
+]
