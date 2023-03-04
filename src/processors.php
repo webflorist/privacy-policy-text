@@ -2,6 +2,7 @@
 
 return [
 	[
+		'id' => 'google_ireland_limited_ie',
 		'name' => 'Google Ireland Limited',
 		'street' => 'Gordon House, Barrow Street',
 		'zip' => 'D4',
@@ -10,6 +11,7 @@ return [
 		'privacy_policy_url' => 'https://policies.google.com/privacy',
 	],
 	[
+		'id' => 'google_llc_us',
 		'name' => 'Google LLC',
 		'street' => '1600 Amphitheatre Parkway',
 		'zip' => 'CA 94043',
@@ -18,6 +20,7 @@ return [
 		'privacy_policy_url' => 'https://policies.google.com/privacy',
 	],
 	[
+		'id' => 'twilio_ireland_limited_ie',
 		'name' => 'Twilio Ireland Limited',
 		'street' => '25-28 North Wall Quay',
 		'zip' => 'D1',
@@ -26,6 +29,7 @@ return [
 		'privacy_policy_url' => 'https://www.twilio.com/legal/privacy',
 	],
 	[
+		'id' => 'twilio_inc_us',
 		'name' => 'Twilio Inc.',
 		'street' => '375 Beale Street, Suite 300',
 		'zip' => 'CA 94105',
@@ -34,6 +38,7 @@ return [
 		'privacy_policy_url' => 'https://www.twilio.com/legal/privacy',
 	],
 	[
+		'id' => 'netlify_inc_us',
 		'name' => 'Netlify Inc.',
 		'street' => '2325 3rd Street, Suite 296',
 		'zip' => 'CA 94107',
@@ -42,6 +47,7 @@ return [
 		'privacy_policy_url' => 'https://www.netlify.com/privacy/',
 	],
 	[
+		'id' => 'stripe_inc_us',
 		'name' => 'Stripe Inc.',
 		'street' => '185 Berry Street, Suite 550',
 		'zip' => 'CA 94107',
@@ -50,6 +56,7 @@ return [
 		'privacy_policy_url' => 'https://stripe.com/privacy',
 	],
 	[
+		'id' => 'storyblok_gmbh_at',
 		'name' => 'Storyblok GmbH',
 		'street' => 'Peter-Behrens-Platz 2',
 		'zip' => '4020',
@@ -58,6 +65,7 @@ return [
 		'privacy_policy_url' => 'https://www.storyblok.com/legal/privacy-policy',
 	],
 	[
+		'id' => 'amazon_web_services_inc_us',
 		'name' => 'Amazon Web Services Inc.',
 		'street' => '410 Terry Avenue North',
 		'zip' => 'WA 98109-5210',
@@ -66,15 +74,17 @@ return [
 		'privacy_policy_url' => 'https://aws.amazon.com/privacy',
 	],
 	[
+		'id' => 'paypal_europe_sarl_et_cie_lu',
 		'name' => 'PayPal (Europe) S.a.r.l. et Cie',
 		'street' => 'S.C.A., 22-24 Boulevard Royal',
 		'zip' => 'L-2449',
 		'city' => 'Luxembourg',
 		'country' => 'LU',
 		'privacy_policy_url' =>
-			'https://www.paypal.com/webapps/mpp/ua/privacy-full',
+		'https://www.paypal.com/webapps/mpp/ua/privacy-full',
 	],
 	[
+		'id' => 'chargebee_inc_us',
 		'name' => 'Chargebee Inc.',
 		'street' => '340 S Lemon Avenue, #1537',
 		'zip' => 'CA 91789',
@@ -83,29 +93,50 @@ return [
 		'privacy_policy_url' => 'https://www.chargebee.com/privacy/',
 	],
 	[
+		'id' => 'domaintechnik_ledl_net_gmbh_at',
 		'name' => 'Domaintechnik - Ledl.net GmbH',
 		'street' => 'Lederergasse 6',
 		'zip' => '5204',
 		'city' => 'Straßwalchen',
 		'country' => 'AT',
 		'privacy_policy_url' =>
-			'https://www.domaintechnik.at/datenschutzerklaerung.html',
+		'https://www.domaintechnik.at/datenschutzerklaerung.html',
 	],
 	[
+		'id' => 'host_europe_gmbh_de',
 		'name' => 'Host Europe GmbH',
 		'street' => 'c/o WeWork, Friesenplatz 4',
 		'zip' => '50672',
 		'city' => 'Köln',
 		'country' => 'DE',
 		'privacy_policy_url' =>
-			'https://www.hosteurope.de/AGB/Datenschutzerklaerung/',
+		'https://www.hosteurope.de/AGB/Datenschutzerklaerung/',
 	],
 	[
+		'id' => 'domainfactory_gmbh_de',
 		'name' => 'Domainfactory GmbH',
 		'street' => 'c/o WeWork, Neuturmstrasse 5',
 		'zip' => '80331',
 		'city' => 'München',
 		'country' => 'DE',
 		'privacy_policy_url' => 'https://www.df.eu/de/datenschutz/',
+	],
+	[
+		'id' => 'cloudflare_inc_us',
+		'name' => 'Cloudflare, Inc.',
+		'street' => '101 Townsend St.',
+		'zip' => 'CA 94107',
+		'city' => 'San Francisco',
+		'country' => 'US',
+		'privacy_policy_url' => 'https://www.cloudflare.com/privacypolicy/',
+	],
+	[
+		'id' => 'ud_media_gmbh_de',
+		'name' => 'UD Media GmbH',
+		'street' => 'Kölner Straße 28',
+		'zip' => '41812',
+		'city' => 'Erkelenz',
+		'country' => 'DE',
+		'privacy_policy_url' => 'https://udmedia.de/service/datenschutz/',
 	],
 ];
