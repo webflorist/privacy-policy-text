@@ -81,7 +81,7 @@ return [
 		'city' => 'Luxembourg',
 		'country' => 'LU',
 		'privacy_policy_url' =>
-		'https://www.paypal.com/webapps/mpp/ua/privacy-full',
+			'https://www.paypal.com/webapps/mpp/ua/privacy-full',
 	],
 	[
 		'id' => 'chargebee_inc_us',
@@ -100,7 +100,7 @@ return [
 		'city' => 'Straßwalchen',
 		'country' => 'AT',
 		'privacy_policy_url' =>
-		'https://www.domaintechnik.at/datenschutzerklaerung.html',
+			'https://www.domaintechnik.at/datenschutzerklaerung.html',
 	],
 	[
 		'id' => 'host_europe_gmbh_de',
@@ -110,7 +110,7 @@ return [
 		'city' => 'Köln',
 		'country' => 'DE',
 		'privacy_policy_url' =>
-		'https://www.hosteurope.de/AGB/Datenschutzerklaerung/',
+			'https://www.hosteurope.de/AGB/Datenschutzerklaerung/',
 	],
 	[
 		'id' => 'domainfactory_gmbh_de',
